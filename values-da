@@ -1,0 +1,83 @@
+<resources>
+
+    <!--Bottom navigation and notification strings-->
+    <string name="device_unsupported">Ikke-understøttet</string>
+    <string name="device_headset">Headset</string>
+    <string name="device_speaker">Højtaler</string>
+    <string name="device_bt_a2dp">Bluetooth</string>
+    <string name="device_usb_device">USB</string>
+    <string name="notification_channel_name">ViPER4Android service</string>
+    <string name="notification_content_title">Behandler (%s)</string>
+    <string name="notification_content_text">Tryk for flere muligheder.</string>
+    <string name="showcase_title">Åben forudindstillingsmenu</string>
+    <string name="showcase_description">Tryk på den valgte enhed for at åbne menuen</string>
+
+    <!--Dialogs-->
+    <string name="dialog_install_driver">Ingen driver fundet</string>
+    <string name="dialog_driver_not_found">Ønsker du at installere driveren nu?
+        \nAdvarsel: Din enhed genstarter automatisk. Sørg for, at din session er gemt</string>
+    <string name="dialog_installation_failed">Installation mislykkedes på %s</string>
+    <string name="dialog_no_root_access">opnåelse af rodadgang</string>
+    <string name="dialog_cpu_not_supported">filtrering af understøttede CPU-arkitekturer</string>
+    <string name="installer_status_rebooting">Genstarter…</string>
+
+    <!--Presets-->
+    <string name="load">Indlæs</string>
+    <string name="copy">Kopier til</string>
+    <string name="overwrite">Overskriv</string>
+    <string name="rename">Omdøb</string>
+    <string name="delete">Slet</string>
+    <string name="new_preset">Ny forudindstilling</string>
+    <string name="overwrite_preset">Overskriv %s</string>
+    <string name="overwrite_preset_description">Er du sikker på, at du vil overskrive %s?</string>
+    <string name="rename_preset">Omdøb %s</string>
+    <string name="delete_preset">Slet %s</string>
+    <string name="delete_preset_description">Ønsker du virkelig at slette %s? Du kan ikke fortryde denne handling</string>
+    <string name="loaded">Indlæst succesfuldt %s</string>
+    <string name="saved">Gemt succesfuldt %s</string>
+    <string name="copied">Kopieret succesfuldt %s</string>
+    <string name="overwritten">Overskrevet succesfuldt %s</string>
+    <string name="renamed">succesfuldt omdøbt til %s</string>
+    <string name="deleted">Succesfuldt slettet %s</string>
+    <string name="not_loaded">Fejl ved læsning %s</string>
+    <string name="not_saved">Fejl ved gemning %s</string>
+    <string name="not_copied">Fejl ved kopiering %s</string>
+    <string name="not_overwritten">Fejl ved overskrivning %s</string>
+    <string name="not_renamed">Fejl ved omdøb %s</string>
+    <string name="not_deleted">Fejl ved sletning %s</string>
+
+    <string name="dialog_preset_new_placeholder">Forudindstillet navn</string>
+    <string name="dialog_preset_error_slash">\"/\" er ikke tilladt</string>
+    <string name="dialog_preset_error_empty">Indtast venligst et forudindstillet navn</string>
+
+    <!--Dialogs Driver-->
+    <string name="dialog_driver_status">Driver status</string>
+    <string name="dialog_driver_status_description">
+        Driver version: %1$s
+        \nNEON aktiveret: %2$s
+        \nAktiveret: %3$s
+        \nStatus: %4$s
+        \nLyd format: %5$s
+        \nBehandler: %6$s
+        \nSampling rate: %7$d
+    </string>
+    <string name="no">Nej</string>
+    <string name="yes">Ja</string>
+    <string name="abnormal">Abnormal</string>
+    <string name="normal">Normal</string>
+    <string name="unsupported">Ikke understøttet</string>
+    <string name="supported">Understøttet</string>
+
+    <!-- General settings -->
+    <string name="title_activity_settings">Menu</string>
+    <string name="notification_settings">Meddelelsesindstillinger</string>
+    <string name="donate">Støt udvikling</string>
+    <string name="credits">Application written by</string>
+    <string name="mention">Made possible by</string>
+
+    <string name="error_empty_directory">Biblioteket %s er tomt</string>
+    <string name="token_lost">Et løbende program har anmodet Android om at deaktivere lydeffekter. ViPER4Android bliver midlertidigt deaktiveret</string>
+    <string name="request_vdc">Anmod om en fil</string>
+    <string name="request">Anmod</string>
+
+</resources>
