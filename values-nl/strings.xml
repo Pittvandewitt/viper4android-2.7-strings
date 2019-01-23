@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!--Bottom navigation and notification strings-->
     <string name="device_unsupported">Niet ondersteund</string>
     <string name="device_headset">Hoofdtelefoon</string>
     <string name="device_speaker">Luidspreker</string>
+    <string name="device_bt_a2dp">Bluetooth</string>
+    <string name="device_usb_device">USB</string>
     <string name="notification_content_title">Verwerken (%s)</string>
     <string name="notification_content_text">Druk voor meer opties.</string>
     <string name="showcase_title">Menu met voorinstellingen openen</string>
     <string name="showcase_description">Druk op het geselecteerde apparaat om het menu te openen</string>
+
+    <!--Dialogs-->
     <string name="dialog_install_driver">Geen driver gevonden</string>
     <string name="dialog_driver_not_found">Wens je de driver nu te installeren?
     \nWaarschuwing: Je apparaat zal automatisch opnieuw opstarten. Sla je sessie van tevoren op</string>
@@ -14,6 +20,8 @@
     <string name="dialog_no_root_access">root toegang verkrijgen</string>
     <string name="dialog_cpu_not_supported">ondersteunde CPU architectuur filteren</string>
     <string name="installer_status_rebooting">Herstarten…</string>
+
+    <!--Presets-->
     <string name="load">Laden</string>
     <string name="copy">Kopiëren naar</string>
     <string name="overwrite">Overschrijven</string>
@@ -37,10 +45,13 @@
     <string name="not_overwritten">%s is niet overschreven</string>
     <string name="not_renamed">%s is niet hernoemd</string>
     <string name="not_deleted">%s is niet verwijder</string>
+    
     <string name="dialog_preset_new_placeholder">Naam voorinstelling</string>
     <string name="dialog_preset_error_slash">\"/\" is niet toegestaan</string>
     <string name="dialog_preset_error_empty">Voer een naam in</string>
-    <string name="dialog_driver_status">Driverstatus</string>
+
+    <!--Dialogs Driver-->
+    <string name="dialog_driver_status">Driver status</string>
     <string name="dialog_driver_status_description">
         Driverversie: %1$s
         \nNEON actief: %2$s
@@ -56,13 +67,17 @@
     <string name="normal">Normaal</string>
     <string name="unsupported">Niet ondersteund</string>
     <string name="supported">Ondersteund</string>
+
+    <!-- General settings -->
     <string name="title_activity_settings">Instellingen</string>
     <string name="notification_settings">Notificatieinstellingen</string>
     <string name="donate">Ontwikkeling ondersteunen</string>
     <string name="credits">Applicatie ontworpen door</string>
     <string name="mention">Mede mogelijk gemaakt door</string>
+    
     <string name="error_empty_directory">De map %s is leeg</string>
     <string name="token_lost">Een actief programma heeft Android gevraagd audio effecten uit te schakelen. ViPER4Android wordt tijdelijk uitgeschakeld</string>
     <string name="request_vdc">Vraag een bestand aan</string>
     <string name="request">Aanvragen</string>
+    
 </resources>
