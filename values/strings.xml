@@ -1,1 +1,91 @@
+<resources>
 
+    <!--Bottom navigation and notification strings-->
+    <string name="device_unsupported">Unsupported</string>
+    <string name="device_headset">Headset</string>
+    <string name="device_speaker">Speaker</string>
+    <string name="device_bt_a2dp">Bluetooth</string>
+    <string name="device_usb_device">USB</string>
+    <string name="notification_channel_name">ViPER4Android service</string>
+    <string name="notification_content_title">Processing (%s)</string>
+    <string name="notification_content_text">Tap for more options.</string>
+    <string name="showcase_title">Opening presets menu</string>
+    <string name="showcase_description">Tap the selected device to open the menu</string>
+
+    <!--Dialogs-->
+    <string name="dialog_install_driver">No driver found</string>
+    <string name="dialog_driver_not_found">Do you wish to install the driver now?
+        \nCaution: Your device will reboot automatically. Make sure your session is saved</string>
+    <string name="dialog_installation_failed">Installation failed at %s</string>
+    <string name="dialog_no_root_access">obtaining root access</string>
+    <string name="dialog_cpu_not_supported">filtering supported CPU architectures</string>
+    <string name="installer_status_rebooting">Rebooting…</string>
+
+    <!--Presets-->
+    <string name="load">Load</string>
+    <string name="copy">Copy to</string>
+    <string name="overwrite">Overwrite</string>
+    <string name="rename">Rename</string>
+    <string name="delete">Delete</string>
+    <string name="new_preset">New preset</string>
+    <string name="overwrite_preset">Overwrite %s</string>
+    <string name="overwrite_preset_description">Are you sure you want to overwrite %s?</string>
+    <string name="rename_preset">Rename %s</string>
+    <string name="delete_preset">Delete %s</string>
+    <string name="delete_preset_description">Do you really wish to delete %s? You can\'t undo this action</string>
+    <string name="loaded">Successfully loaded %s</string>
+    <string name="saved">Successfully saved %s</string>
+    <string name="copied">Successfully copied %s</string>
+    <string name="overwritten">Successfully overwritten %s</string>
+    <string name="renamed">Successfully renamed to %s</string>
+    <string name="deleted">Successfully deleted %s</string>
+    <string name="not_loaded">Failed loading %s</string>
+    <string name="not_saved">Failed saving %s</string>
+    <string name="not_copied">Failed copying %s</string>
+    <string name="not_overwritten">Failed overwriting %s</string>
+    <string name="not_renamed">Failed renaming %s</string>
+    <string name="not_deleted">Failed deleting %s</string>
+
+    <string name="dialog_preset_new_placeholder">Preset name</string>
+    <string name="dialog_preset_error_slash">\"/\" is not allowed</string>
+    <string name="dialog_preset_error_empty">Please enter a preset name</string>
+
+    <!--Dialogs Driver-->
+    <string name="dialog_driver_status">Driver status</string>
+    <string name="dialog_driver_status_description">
+        Driver version: %1$s
+        \nNEON enabled: %2$s
+        \nEnabled: %3$s
+        \nStatus: %4$s
+        \nAudio format: %5$s
+        \nProcessing: %6$s
+        \nSampling rate: %7$d
+    </string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="abnormal">Abnormal</string>
+    <string name="normal">Normal</string>
+    <string name="unsupported">Unsupported</string>
+    <string name="supported">Supported</string>
+
+    <string name="symbol_percent">%</string>
+    <string name="symbol_hertz">Hz</string>
+    <string name="symbol_milliseconds">ms</string>
+    <string name="symbol_decibel">dB</string>
+    <string name="symbol_times">x</string>
+    <string name="symbol_meter">m</string>
+    <string name="symbol_meter_squared">m²</string>
+
+    <!-- General settings -->
+    <string name="title_activity_settings">Settings</string>
+    <string name="notification_settings">Notification settings</string>
+    <string name="donate">Support development</string>
+    <string name="credits">Application written by</string>
+    <string name="mention">Made possible by</string>
+
+    <string name="error_empty_directory">The directory %s is empty</string>
+    <string name="token_lost">A running program has requested Android to disable audio effects. ViPER4Android will be temporarily disabled</string>
+    <string name="request_vdc">Request a file</string>
+    <string name="request">Request</string>
+
+</resources>
