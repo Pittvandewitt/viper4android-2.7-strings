@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="device_unsupported">Niet ondersteund</string>
+    <string name="device_headset">Hoofdtelefoon</string>
+    <string name="device_speaker">Luidspreker</string>
+    <string name="notification_content_title">Verwerken (%s)</string>
+    <string name="notification_content_text">Druk voor meer opties.</string>
+    <string name="showcase_title">Menu met voorinstellingen openen</string>
+    <string name="showcase_description">Druk op het geselecteerde apparaat om het menu te openen</string>
+    <string name="dialog_install_driver">Geen driver gevonden</string>
+    <string name="dialog_driver_not_found">Wens je de driver nu te installeren?
+    \nWaarschuwing: Je apparaat zal automatisch opnieuw opstarten. Sla je sessie van tevoren op</string>
+    <string name="dialog_installation_failed">Installatie mislukt op:</string>
+    <string name="dialog_no_root_access">root toegang verkrijgen</string>
+    <string name="dialog_cpu_not_supported">ondersteunde CPU architectuur filteren</string>
+    <string name="installer_status_rebooting">Herstarten…</string>
+    <string name="load">Laden</string>
+    <string name="copy">Kopiëren naar</string>
+    <string name="overwrite">Overschrijven</string>
+    <string name="rename">Hernoemen</string>
+    <string name="delete">Verwijderen</string>
+    <string name="new_preset">Nieuwe voorinstelling</string>
+    <string name="overwrite_preset">%s overschrijven</string>
+    <string name="overwrite_preset_description">Wil je %s echt overschrijven?</string>
+    <string name="rename_preset">%s hernoemen</string>
+    <string name="delete_preset">%s verwijderen</string>
+    <string name="delete_preset_description">Wil je %s echt verwijderen?</string>
+    <string name="loaded">%s is succesvol geladen</string>
+    <string name="saved">%s is succesvol opgeslagen</string>
+    <string name="copied">%s is succesvol gekopieerd</string>
+    <string name="overwritten">%s is succesvol overschreven</string>
+    <string name="renamed">Succesvol hernoemd naar %s</string>
+    <string name="deleted">%s is verwijderd</string>
+    <string name="not_loaded">%s is niet geladen</string>
+    <string name="not_saved">%s is niet geladen</string>
+    <string name="not_copied">%s is niet gekopieerd</string>
+    <string name="not_overwritten">%s is niet overschreven</string>
+    <string name="not_renamed">%s is niet hernoemd</string>
+    <string name="not_deleted">%s is niet verwijder</string>
+    <string name="dialog_preset_new_placeholder">Naam voorinstelling</string>
+    <string name="dialog_preset_error_slash">\"/\" is niet toegestaan</string>
+    <string name="dialog_preset_error_empty">Voer een naam in</string>
+    <string name="dialog_driver_status">Driverstatus</string>
+    <string name="dialog_driver_status_description">
+        Driverversie: %1$s
+        \nNEON actief: %2$s
+        \nIngeschakeld: %3$s
+        \nStatus: %4$s
+        \nAudioformaat: %5$s
+        \nUitvoeren: %6$s
+        \nSamplerate: %7$d
+    </string>
+    <string name="no">Nee</string>
+    <string name="yes">Ja</string>
+    <string name="abnormal">Abnormaal</string>
+    <string name="normal">Normaal</string>
+    <string name="unsupported">Niet ondersteund</string>
+    <string name="supported">Ondersteund</string>
+    <string name="title_activity_settings">Instellingen</string>
+    <string name="notification_settings">Notificatieinstellingen</string>
+    <string name="donate">Ontwikkeling ondersteunen</string>
+    <string name="credits">Applicatie ontworpen door</string>
+    <string name="mention">Mede mogelijk gemaakt door</string>
+    <string name="error_empty_directory">De map %s is leeg</string>
+    <string name="token_lost">Een actief programma heeft Android gevraagd audio effecten uit te schakelen. ViPER4Android wordt tijdelijk uitgeschakeld</string>
+    <string name="request_vdc">Vraag een bestand aan</string>
+    <string name="request">Aanvragen</string>
+</resources>
