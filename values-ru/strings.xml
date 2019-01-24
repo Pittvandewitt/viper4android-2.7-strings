@@ -80,7 +80,7 @@
     <!-- General settings -->
     <string name="title_activity_settings">Настройки</string>
     <string name="notification_settings">Настройки уведомлений</string>
-    <string name="donate">Поддержать разработку/string>
+    <string name="donate">Поддержать разработку</string>
     <string name="credits">Приложение написано</string>
     <string name="mention">Сделано возможным благодаря</string>
 
