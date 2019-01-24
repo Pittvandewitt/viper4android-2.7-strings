@@ -68,6 +68,127 @@
     <string name="unsupported">Unsupported</string>
     <string name="supported">Supported</string>
 
+    <!-- Main preference screen -->
+    <string name="pref_fx_limiter_title">Master limiter</string>
+    <string name="pref_output_gain">Output gain</string>
+    <string name="pref_output_pan">Output pan</string>
+    <string name="pref_fx_limiter_threshold">Threshold limit</string>
+
+    <string name="pref_playback_title">Playback gain control</string>
+    <string name="pref_playback_strength">Strength</string>
+    <string name="pref_playback_maxgain">Maximum gain</string>
+    <string name="pref_playback_output_threshold">Output threshold</string>
+
+    <string name="pref_fetcompressor_title">FET compressor</string>
+    <string name="pref_fetcompressor_threshold">Operating threshold</string>
+    <string name="pref_fetcompressor_ratio">Compression ratio</string>
+    <string name="pref_fetcompressor_autoknee">Automatic knee</string>
+    <string name="pref_fetcompressor_knee">Inflection</string>
+    <string name="pref_fetcompressor_kneemulti">Inflection point gain</string>
+    <string name="pref_fetcompressor_autogain">Automatic gain</string>
+    <string name="pref_fetcompressor_gain">Gain</string>
+    <string name="pref_fetcompressor_autoattack">Automatic attack</string>
+    <string name="pref_fetcompressor_attack">Attack</string>
+    <string name="pref_fetcompressor_maxattack">Maximum attack</string>
+    <string name="pref_fetcompressor_autorelease">Automatic release</string>
+    <string name="pref_fetcompressor_release">Release</string>
+    <string name="pref_fetcompressor_maxrelease">Maximum release</string>
+    <string name="pref_fetcompressor_crest">Crest</string>
+    <string name="pref_fetcompressor_adapt">Adapt</string>
+    <string name="pref_fetcompressor_noclip">Clipping prevention</string>
+
+    <string name="pref_viperddc_title">ViPER-DDC</string>
+    <string name="pref_viperddc_device">Headset correction</string>
+    <string name="text_choose_ddc_device">Select correction file</string>
+
+    <string name="pref_vse_title">Spectrum extension</string>
+    <string name="pref_vse_strength">Strength</string>
+
+    <string name="pref_equalizer_title">FIR equalizer</string>
+    <string name="eq_preset_acoustic">Acoustic</string>
+    <string name="eq_preset_bass_booster">Bass booster</string>
+    <string name="eq_preset_bass_reducer">Bass reducer</string>
+    <string name="eq_preset_classical">Classical</string>
+    <string name="eq_preset_deep">Deep</string>
+    <string name="eq_preset_flat">Flat</string>
+    <string name="eq_preset_r_and_b">R&amp;B</string>
+    <string name="eq_preset_rock">Rock</string>
+    <string name="eq_preset_small_speakers">Small speakers</string>
+    <string name="eq_preset_treble_booster">Treble booster</string>
+    <string name="eq_preset_treble_reducer">Treble reducer</string>
+    <string name="eq_preset_vocal_booster">Vocal booster</string>
+
+    <string name="pref_convolver_title">Convolver</string>
+    <string name="pref_convolver_knl">Impulse response</string>
+    <string name="pref_convolver_knl_title">Select impulse response file</string>
+    <string name="pref_convolver_crosschannel">Cross channel</string>
+
+    <string name="pref_colorfulmusic_title">Field surround</string>
+    <string name="pref_select_colorfulmusic_title">Surround strength</string>
+    <string name="pref_select_colorfulmusic_mi_title">Mid image strength</string>
+
+    <string name="pref_diffsurr_title">Differential surround</string>
+    <string name="pref_select_diffsurr_ms_title">Delay</string>
+
+    <string name="pref_vhs_title">Headphone surround +</string>
+    <string name="pref_select_vhs_qual_title">Level</string>
+
+    <string name="pref_reverb_title">Reverberation</string>
+    <string name="pref_reverb_roomsize">Room size</string>
+    <string name="pref_reverb_width">Sound field</string>
+    <string name="pref_reverb_damp">Damping factor</string>
+    <string name="pref_reverb_wet">Wet signal</string>
+    <string name="pref_reverb_dry">Dry signal</string>
+
+    <string name="pref_dynamicsystem_title">Dynamic system</string>
+    <string name="pref_dynamicsystem_output">Device type</string>
+    <string name="dynamicsystem_entry_1">Extreme headphone(v2)</string>
+    <string name="dynamicsystem_entry_2">High-end headphone(v2)</string>
+    <string name="dynamicsystem_entry_3">Common headphone(v2)</string>
+    <string name="dynamicsystem_entry_4">Low-end headphone(v2)</string>
+    <string name="dynamicsystem_entry_5">Common earphone(v2)</string>
+    <string name="dynamicsystem_entry_6">Extreme headphone(v1)</string>
+    <string name="dynamicsystem_entry_7">High-end headphone(v1)</string>
+    <string name="dynamicsystem_entry_8">Common headphone(v1)</string>
+    <string name="dynamicsystem_entry_9">Common earphone(v1)</string>
+    <string name="dynamicsystem_entry_10">Apple earphone</string>
+    <string name="dynamicsystem_entry_11">Monster earphone</string>
+    <string name="dynamicsystem_entry_12">Motorola earphone</string>
+    <string name="dynamicsystem_entry_13">Philips earphone</string>
+    <string name="dynamicsystem_entry_14">SHP2000</string>
+    <string name="dynamicsystem_entry_15">SHP9000</string>
+    <string name="dynamicsystem_entry_16">Unknown type I</string>
+    <string name="dynamicsystem_entry_17">Unknown type II</string>
+    <string name="dynamicsystem_entry_18">Unknown type III</string>
+    <string name="dynamicsystem_entry_19">Unknown type IV</string>
+    <string name="dynamicsystem_entry_20">Unknown type V</string>
+    <string name="pref_dynamicsystem_bass">Dynamic bass strength</string>
+
+    <string name="pref_tube_simulator_title">Tube simulator (6N1J)</string>
+
+    <string name="pref_fidelity_bass_title">ViPER bass</string>
+    <string name="pref_fidelity_vb_mode_title">Bass mode</string>
+    <string name="bass_mode_natural">Natural bass</string>
+    <string name="bass_mode_pure">Pure bass+</string>
+    <string name="bass_mode_subwoofer">Subwoofer</string>
+    <string name="pref_fidelity_vb_bassfreq_title">Bass frequency</string>
+    <string name="pref_fidelity_vb_bass_strength">Bass gain</string>
+
+    <string name="pref_fidelity_clarity_title">ViPER clarity</string>
+    <string name="pref_fidelity_vc_mode_title">Clarity mode</string>
+    <string name="clarity_mode_natural">Natural</string>
+    <string name="clarity_mode_ozone">OZone+</string>
+    <string name="clarity_mode_xhifi">XHiFi</string>
+    <string name="pref_fidelity_vc_claritygain_title">Clarity gain</string>
+
+    <string name="pref_curesystem_title">Auditory system protection</string>
+    <string name="pref_select_cure_cf_title">Binaural level</string>
+
+    <string name="pref_analogx_title">AnalogX</string>
+    <string name="pref_analogx_strength">Level</string>
+
+    <string name="pref_spk_opt_title">Speaker Optimization</string>
+
     <string name="symbol_percent">%</string>
     <string name="symbol_hertz">Hz</string>
     <string name="symbol_milliseconds">ms</string>
