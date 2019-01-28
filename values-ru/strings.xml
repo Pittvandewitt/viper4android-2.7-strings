@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<?xml version="1.0" encoding="utf-8"?><resources>
 
     <!--Bottom navigation and notification strings-->
     <string name="device_unsupported">Неподдерживаемое устройство</string>
@@ -16,7 +15,7 @@
     <!--Dialogs-->
     <string name="dialog_install_driver">Драйвер не найден</string>
     <string name="dialog_driver_not_found">Хотите установить драйвер сейчас?
-        \nВнимание: Ваше устройство перезагрузится автоматичски. Сохраните все важные данные.</string>
+        \nВнимание: Ваше устройство перезагрузится автоматически. Сохраните все важные данные.</string>
     <string name="dialog_installation_failed">Установка прервана на %s</string>
     <string name="dialog_no_root_access">получении root прав</string>
     <string name="dialog_cpu_not_supported">фильтрации поддерживаемых архитектур ЦП</string>
@@ -24,7 +23,7 @@
 
     <!--Presets-->
     <string name="load">Загрузить</string>
-    <string name="copy">Скопировать</string>
+    <string name="copy">Копировать</string>
     <string name="overwrite">Перезаписать</string>
     <string name="rename">Переименовать</string>
     <string name="delete">Удалить</string>
@@ -40,12 +39,6 @@
     <string name="overwritten">%s успешно перезаписан</string>
     <string name="renamed">Успешно переименовано в %s</string>
     <string name="deleted">%s успешно удалён</string>
-    <string name="not_loaded">Не удалось загрузить %s</string>
-    <string name="not_saved">Не удалось сохранить %s</string>
-    <string name="not_copied">Не удалось скопировать %s</string>
-    <string name="not_overwritten">Не удалось перезаписать %s</string>
-    <string name="not_renamed">Не удалось переименовать %s</string>
-    <string name="not_deleted">Не удалось удалить %s</string>
 
     <string name="dialog_preset_new_placeholder">Имя пресета</string>
     <string name="dialog_preset_error_slash">Символ \"/\" не разрешён</string>
@@ -55,10 +48,10 @@
     <string name="dialog_driver_status">Статус драйвера</string>
     <string name="dialog_driver_status_description">
         Версия драйвера: %1$s
-        \nNEON активирован: %2$s
-        \nАктивирован: %3$s
+        \nNEON включён: %2$s
+        \nВключён: %3$s
         \nСтатус: %4$s
-        \nФормат аудио: %5$s
+        \nАудиоформат: %5$s
         \nОбработка: %6$s
         \nЧастота дискретизации: %7$d
     </string>
@@ -68,6 +61,128 @@
     <string name="normal">Нормально</string>
     <string name="unsupported">Не поддерживается</string>
     <string name="supported">Поддерживается</string>
+
+    <!-- Main preference screen -->
+    <string name="pref_fx_limiter_title">Главный ограничитель</string>
+    <string name="pref_output_gain">Усиление на выходе</string>
+    <string name="pref_output_pan">Баланс каналов</string>
+    <string name="pref_fx_limiter_threshold">Пороговый предел</string>
+
+    <string name="pref_playback_title">Управление усилением воспроизведения</string>
+    <string name="pref_playback_strength">Сила эффекта</string>
+    <string name="pref_playback_maxgain">Максимальное усиление</string>
+    <string name="pref_playback_output_threshold">Выходной предел</string>
+
+    <string name="pref_fetcompressor_title">FET compressor</string>
+    <string name="pref_fetcompressor_threshold">Operating threshold</string>
+    <string name="pref_fetcompressor_ratio">Compression ratio</string>
+    <string name="pref_fetcompressor_autoknee">Automatic knee</string>
+    <string name="pref_fetcompressor_knee">Inflection</string>
+    <string name="pref_fetcompressor_kneemulti">Inflection point gain</string>
+    <string name="pref_fetcompressor_autogain">Automatic gain</string>
+    <string name="pref_fetcompressor_gain">Gain</string>
+    <string name="pref_fetcompressor_autoattack">Automatic attack</string>
+    <string name="pref_fetcompressor_attack">Attack</string>
+    <string name="pref_fetcompressor_maxattack">Maximum attack</string>
+    <string name="pref_fetcompressor_autorelease">Automatic release</string>
+    <string name="pref_fetcompressor_release">Release</string>
+    <string name="pref_fetcompressor_maxrelease">Maximum release</string>
+    <string name="pref_fetcompressor_crest">Crest</string>
+    <string name="pref_fetcompressor_adapt">Adapt</string>
+    <string name="pref_fetcompressor_noclip">Clipping prevention</string>
+
+    <string name="pref_viperddc_title">ViPER-DDC</string>
+    <string name="pref_viperddc_device">Корректировка наушников</string>
+    <string name="text_choose_ddc_device">Выберите файл корректировки</string>
+
+    <string name="pref_vse_title">Расширение спектра</string>
+    <string name="pref_vse_strength">Сила эффекта</string>
+
+    <string name="pref_equalizer_title">Эквалайзер с КИХ</string>
+    <string name="eq_preset_acoustic">Акустика</string>
+    <string name="eq_preset_bass_booster">Усиление баса</string>
+    <string name="eq_preset_bass_reducer">Ослабление баса</string>
+    <string name="eq_preset_classical">Классика</string>
+    <string name="eq_preset_deep">Deep</string>
+    <string name="eq_preset_flat">Плоский</string>
+    <string name="eq_preset_r_and_b">R&amp;B</string>
+    <string name="eq_preset_rock">Рок</string>
+    <string name="eq_preset_small_speakers">Малые динамики</string>
+    <string name="eq_preset_treble_booster">Усиление ВЧ</string>
+    <string name="eq_preset_treble_reducer">Ослабление ВЧ</string>
+    <string name="eq_preset_vocal_booster">Усиление вокала</string>
+
+    <string name="pref_convolver_title">Конвольвер</string>
+    <string name="pref_convolver_knl">Импульсная характеристика</string>
+    <string name="pref_convolver_knl_title">Выберите файл импульсной характеристики</string>
+    <string name="pref_convolver_crosschannel">Пересечение каналов</string>
+
+    <string name="pref_colorfulmusic_title">Объёмный звук</string>
+    <string name="pref_select_colorfulmusic_title">Сила эффекта</string>
+    <string name="pref_select_colorfulmusic_mi_title">Присутствие "центра"</string>
+
+    <string name="pref_diffsurr_title">Дифференциальный объёмный звук</string>
+    <string name="pref_select_diffsurr_ms_title">Задержка</string>
+
+    <string name="pref_vhs_title">Объёмный звук для наушников</string>
+    <string name="pref_select_vhs_qual_title">Уровень</string>
+
+    <string name="pref_reverb_title">Реверберация</string>
+    <string name="pref_reverb_roomsize">Размер комнаты</string>
+    <string name="pref_reverb_width">Звуковое поле</string>
+    <string name="pref_reverb_damp">Коэффициент затухания</string>
+    <string name="pref_reverb_wet">Отражённый сигнал</string>
+    <string name="pref_reverb_dry">Прямой сигнал</string>
+
+    <string name="pref_dynamicsystem_title">Динамическая система</string>
+    <string name="pref_dynamicsystem_output">Тип устройства</string>
+    <string name="dynamicsystem_entry_1">Отличные наушники(v2)</string>
+    <string name="dynamicsystem_entry_2">Хорошие наушники(v2)</string>
+    <string name="dynamicsystem_entry_3">Обычные наушники(v2)</string>
+    <string name="dynamicsystem_entry_4">Плохие наушники(v2)</string>
+    <string name="dynamicsystem_entry_5">Обычные вкладыши(v2)</string>
+    <string name="dynamicsystem_entry_6">Отличные наушники(v1)</string>
+    <string name="dynamicsystem_entry_7">Хорошие наушники(v1)</string>
+    <string name="dynamicsystem_entry_8">Обычные наушники(v1)</string>
+    <string name="dynamicsystem_entry_9">Обычные вкладыши(v1)</string>
+    <string name="dynamicsystem_entry_10">Вкладыши Apple</string>
+    <string name="dynamicsystem_entry_11">Вкладыши Monster</string>
+    <string name="dynamicsystem_entry_12">Вкладыши Motorola</string>
+    <string name="dynamicsystem_entry_13">Вкладыши Philips</string>
+    <string name="dynamicsystem_entry_14">SHP2000</string>
+    <string name="dynamicsystem_entry_15">SHP9000</string>
+    <string name="dynamicsystem_entry_16">Неизвестный тип I</string>
+    <string name="dynamicsystem_entry_17">Неизвестный тип II</string>
+    <string name="dynamicsystem_entry_18">Неизвестный тип III</string>
+    <string name="dynamicsystem_entry_19">Неизвестный тип IV</string>
+    <string name="dynamicsystem_entry_20">Неизвестный тип V</string>
+    <string name="pref_dynamicsystem_bass">Динамическое усиление баса</string>
+
+    <string name="pref_tube_simulator_title">Симулятор лампового усилителя (6N1J)</string>
+
+    <string name="pref_fidelity_bass_title">ViPER бас</string>
+    <string name="pref_fidelity_vb_mode_title">Режим баса</string>
+    <string name="bass_mode_natural">Натуральный бас</string>
+    <string name="bass_mode_pure">Чситый бас +</string>
+    <string name="bass_mode_subwoofer">Сабвуфер</string>
+    <string name="pref_fidelity_vb_bassfreq_title">Частота баса</string>
+    <string name="pref_fidelity_vb_bass_strength">Усиление баса</string>
+
+    <string name="pref_fidelity_clarity_title">ViPER чёткость</string>
+    <string name="pref_fidelity_vc_mode_title">Режим чёткости</string>
+    <string name="clarity_mode_natural">Натуральный</string>
+    <string name="clarity_mode_ozone">OZone+</string>
+    <string name="clarity_mode_xhifi">XHiFi</string>
+    <string name="pref_fidelity_vc_claritygain_title">Усиление чёткости</string>
+
+    <string name="pref_curesystem_title">Защита слуха</string>
+    <string name="pref_select_cure_cf_title">Бинауральный уровень</string>
+
+    <string name="pref_analogx_title">AnalogX</string>
+    <string name="pref_analogx_strength">Уровень</string>
+
+    <string name="pref_spk_opt_title">Оптимизация динамика</string>
+
 
     <string name="symbol_percent">%</string>
     <string name="symbol_hertz">Гц</string>
@@ -81,8 +196,89 @@
     <string name="title_activity_settings">Настройки</string>
     <string name="notification_settings">Настройки уведомлений</string>
     <string name="donate">Поддержать разработку</string>
-    <string name="credits">Приложение написано</string>
-    <string name="mention">Сделано возможным благодаря</string>
+    <string name="credits">Приложение разработано</string>
+    <string name="mention">При поддержке</string>
+
+    <string name="error_empty_directory">Директория %s пустая</string>
+    <string name="token_lost">Запущенная программа запросила систему Android отключить аудио эффекты. ViPER4Android будет временно отключен.</string>
+    <string name="request_vdc">Запросить файл</string>
+    <string name="request">Запросить</string>
+
+</resources>
+    <string name="pref_vhs_title">Объёмный звук для наушников</string>
+    <string name="pref_select_vhs_qual_title">Уровень</string>
+
+    <string name="pref_reverb_title">Реверберация</string>
+    <string name="pref_reverb_roomsize">Размер комнаты</string>
+    <string name="pref_reverb_width">Звуковое поле</string>
+    <string name="pref_reverb_damp">Коэффициент затухания</string>
+    <string name="pref_reverb_wet">Отражённый сигнал</string>
+    <string name="pref_reverb_dry">Прямой сигнал</string>
+
+    <string name="pref_dynamicsystem_title">Динамическая система</string>
+    <string name="pref_dynamicsystem_output">Тип устройства</string>
+    <string name="dynamicsystem_entry_1">Отличные наушники(v2)</string>
+    <string name="dynamicsystem_entry_2">Хорошие наушники(v2)</string>
+    <string name="dynamicsystem_entry_3">Обычные наушники(v2)</string>
+    <string name="dynamicsystem_entry_4">Плохие наушники(v2)</string>
+    <string name="dynamicsystem_entry_5">Обычные вкладыши(v2)</string>
+    <string name="dynamicsystem_entry_6">Отличные наушники(v1)</string>
+    <string name="dynamicsystem_entry_7">Хорошие наушники(v1)</string>
+    <string name="dynamicsystem_entry_8">Обычные наушники(v1)</string>
+    <string name="dynamicsystem_entry_9">Обычные вкладыши(v1)</string>
+    <string name="dynamicsystem_entry_10">Вкладыши Apple</string>
+    <string name="dynamicsystem_entry_11">Вкладыши Monster</string>
+    <string name="dynamicsystem_entry_12">Вкладыши Motorola</string>
+    <string name="dynamicsystem_entry_13">Вкладыши Philips</string>
+    <string name="dynamicsystem_entry_14">SHP2000</string>
+    <string name="dynamicsystem_entry_15">SHP9000</string>
+    <string name="dynamicsystem_entry_16">Неизвестный тип I</string>
+    <string name="dynamicsystem_entry_17">Неизвестный тип II</string>
+    <string name="dynamicsystem_entry_18">Неизвестный тип III</string>
+    <string name="dynamicsystem_entry_19">Неизвестный тип IV</string>
+    <string name="dynamicsystem_entry_20">Неизвестный тип V</string>
+    <string name="pref_dynamicsystem_bass">Динамическое усиление баса</string>
+
+    <string name="pref_tube_simulator_title">Симулятор лампового усилителя (6N1J)</string>
+
+    <string name="pref_fidelity_bass_title">ViPER бас</string>
+    <string name="pref_fidelity_vb_mode_title">Режим баса</string>
+    <string name="bass_mode_natural">Натуральный бас</string>
+    <string name="bass_mode_pure">Чситый бас +<string>
+    <string name="bass_mode_subwoofer">Сабвуфер</string>
+    <string name="pref_fidelity_vb_bassfreq_title">Частота баса</string>
+    <string name="pref_fidelity_vb_bass_strength">Усиление баса</string>
+
+    <string name="pref_fidelity_clarity_title">ViPER чёткость</string>
+    <string name="pref_fidelity_vc_mode_title">Режим чёткости</string>
+    <string name="clarity_mode_natural">Натуральный</string>
+    <string name="clarity_mode_ozone">OZone+</string>
+    <string name="clarity_mode_xhifi">XHiFi</string>
+    <string name="pref_fidelity_vc_claritygain_title">Усиление чёткости</string>
+
+    <string name="pref_curesystem_title">Защита слуха</string>
+    <string name="pref_select_cure_cf_title">Бинауральный уровень</string>
+
+    <string name="pref_analogx_title">AnalogX</string>
+    <string name="pref_analogx_strength">Уровень</string>
+
+    <string name="pref_spk_opt_title">Оптимизация динамика</string>
+
+
+	<string name="symbol_percent">%</string>
+    <string name="symbol_hertz">Гц</string>
+    <string name="symbol_milliseconds">мс</string>
+    <string name="symbol_decibel">дБ</string>
+    <string name="symbol_times">x</string>
+    <string name="symbol_meter">м</string>
+    <string name="symbol_meter_squared">м²</string>
+    
+    <!-- General settings -->
+    <string name="title_activity_settings">Настройки</string>
+    <string name="notification_settings">Настройки уведомлений</string>
+    <string name="donate">Поддержать разработку/string>
+    <string name="credits">Приложение разработано</string>
+    <string name="mention">При поддержке</string>
 
     <string name="error_empty_directory">Директория %s пустая</string>
     <string name="token_lost">Запущенная программа запросила систему Android отключить аудио эффекты. ViPER4Android будет временно отключен.</string>
