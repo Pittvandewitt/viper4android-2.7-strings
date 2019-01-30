@@ -74,7 +74,7 @@
     <string name="pref_output_pan">Баланс каналов</string>
     <string name="pref_fx_limiter_threshold">Пороговый предел</string>
 
-    <string name="pref_playback_title">Управление усилением воспроизведения</string>
+    <string name="pref_playback_title">Динамическое усиление</string>
     <string name="pref_playback_strength">Сила эффекта</string>
     <string name="pref_playback_maxgain">Максимальное усиление</string>
     <string name="pref_playback_output_threshold">Выходной предел</string>
@@ -127,7 +127,7 @@
     <string name="pref_select_colorfulmusic_title">Сила эффекта</string>
     <string name="pref_select_colorfulmusic_mi_title">Присутствие "центра"</string>
 
-    <string name="pref_diffsurr_title">Дифференциальный объёмный звук</string>
+    <string name="pref_diffsurr_title">Дифф. объёмный звук</string>
     <string name="pref_select_diffsurr_ms_title">Задержка</string>
 
     <string name="pref_vhs_title">Объёмный звук для наушников</string>
@@ -164,7 +164,7 @@
     <string name="dynamicsystem_entry_20">Неизвестный тип V</string>
     <string name="pref_dynamicsystem_bass">Динамическое усиление баса</string>
 
-    <string name="pref_tube_simulator_title">Симулятор лампового усилителя (6N1J)</string>
+    <string name="pref_tube_simulator_title">Ламповый усилитель (6N1J)</string>
 
     <string name="pref_fidelity_bass_title">ViPER бас</string>
     <string name="pref_fidelity_vb_mode_title">Режим баса</string>
