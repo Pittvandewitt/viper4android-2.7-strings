@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
     <!--Bottom navigation and notification strings-->
     <string name="device_unsupported">Неподдерживаемое устройство</string>
@@ -68,7 +69,7 @@
     <string name="pref_output_pan">Баланс каналов</string>
     <string name="pref_fx_limiter_threshold">Пороговый предел</string>
 
-    <string name="pref_playback_title">Управление усилением воспроизведения</string>
+    <string name="pref_playback_title">Динамическое усиление</string>
     <string name="pref_playback_strength">Сила эффекта</string>
     <string name="pref_playback_maxgain">Максимальное усиление</string>
     <string name="pref_playback_output_threshold">Выходной предел</string>
@@ -121,7 +122,7 @@
     <string name="pref_select_colorfulmusic_title">Сила эффекта</string>
     <string name="pref_select_colorfulmusic_mi_title">Присутствие "центра"</string>
 
-    <string name="pref_diffsurr_title">Дифференциальный объёмный звук</string>
+    <string name="pref_diffsurr_title">Дифф. объёмный звук</string>
     <string name="pref_select_diffsurr_ms_title">Задержка</string>
 
     <string name="pref_vhs_title">Объёмный звук для наушников</string>
@@ -158,7 +159,7 @@
     <string name="dynamicsystem_entry_20">Неизвестный тип V</string>
     <string name="pref_dynamicsystem_bass">Динамическое усиление баса</string>
 
-    <string name="pref_tube_simulator_title">Симулятор лампового усилителя (6N1J)</string>
+    <string name="pref_tube_simulator_title">Ламповый усилитель (6N1J)</string>
 
     <string name="pref_fidelity_bass_title">ViPER бас</string>
     <string name="pref_fidelity_vb_mode_title">Режим баса</string>
@@ -196,87 +197,6 @@
     <string name="title_activity_settings">Настройки</string>
     <string name="notification_settings">Настройки уведомлений</string>
     <string name="donate">Поддержать разработку</string>
-    <string name="credits">Приложение разработано</string>
-    <string name="mention">При поддержке</string>
-
-    <string name="error_empty_directory">Директория %s пустая</string>
-    <string name="token_lost">Запущенная программа запросила систему Android отключить аудио эффекты. ViPER4Android будет временно отключен.</string>
-    <string name="request_vdc">Запросить файл</string>
-    <string name="request">Запросить</string>
-
-</resources>
-    <string name="pref_vhs_title">Объёмный звук для наушников</string>
-    <string name="pref_select_vhs_qual_title">Уровень</string>
-
-    <string name="pref_reverb_title">Реверберация</string>
-    <string name="pref_reverb_roomsize">Размер комнаты</string>
-    <string name="pref_reverb_width">Звуковое поле</string>
-    <string name="pref_reverb_damp">Коэффициент затухания</string>
-    <string name="pref_reverb_wet">Отражённый сигнал</string>
-    <string name="pref_reverb_dry">Прямой сигнал</string>
-
-    <string name="pref_dynamicsystem_title">Динамическая система</string>
-    <string name="pref_dynamicsystem_output">Тип устройства</string>
-    <string name="dynamicsystem_entry_1">Отличные наушники(v2)</string>
-    <string name="dynamicsystem_entry_2">Хорошие наушники(v2)</string>
-    <string name="dynamicsystem_entry_3">Обычные наушники(v2)</string>
-    <string name="dynamicsystem_entry_4">Плохие наушники(v2)</string>
-    <string name="dynamicsystem_entry_5">Обычные вкладыши(v2)</string>
-    <string name="dynamicsystem_entry_6">Отличные наушники(v1)</string>
-    <string name="dynamicsystem_entry_7">Хорошие наушники(v1)</string>
-    <string name="dynamicsystem_entry_8">Обычные наушники(v1)</string>
-    <string name="dynamicsystem_entry_9">Обычные вкладыши(v1)</string>
-    <string name="dynamicsystem_entry_10">Вкладыши Apple</string>
-    <string name="dynamicsystem_entry_11">Вкладыши Monster</string>
-    <string name="dynamicsystem_entry_12">Вкладыши Motorola</string>
-    <string name="dynamicsystem_entry_13">Вкладыши Philips</string>
-    <string name="dynamicsystem_entry_14">SHP2000</string>
-    <string name="dynamicsystem_entry_15">SHP9000</string>
-    <string name="dynamicsystem_entry_16">Неизвестный тип I</string>
-    <string name="dynamicsystem_entry_17">Неизвестный тип II</string>
-    <string name="dynamicsystem_entry_18">Неизвестный тип III</string>
-    <string name="dynamicsystem_entry_19">Неизвестный тип IV</string>
-    <string name="dynamicsystem_entry_20">Неизвестный тип V</string>
-    <string name="pref_dynamicsystem_bass">Динамическое усиление баса</string>
-
-    <string name="pref_tube_simulator_title">Симулятор лампового усилителя (6N1J)</string>
-
-    <string name="pref_fidelity_bass_title">ViPER бас</string>
-    <string name="pref_fidelity_vb_mode_title">Режим баса</string>
-    <string name="bass_mode_natural">Натуральный бас</string>
-    <string name="bass_mode_pure">Чситый бас +<string>
-    <string name="bass_mode_subwoofer">Сабвуфер</string>
-    <string name="pref_fidelity_vb_bassfreq_title">Частота баса</string>
-    <string name="pref_fidelity_vb_bass_strength">Усиление баса</string>
-
-    <string name="pref_fidelity_clarity_title">ViPER чёткость</string>
-    <string name="pref_fidelity_vc_mode_title">Режим чёткости</string>
-    <string name="clarity_mode_natural">Натуральный</string>
-    <string name="clarity_mode_ozone">OZone+</string>
-    <string name="clarity_mode_xhifi">XHiFi</string>
-    <string name="pref_fidelity_vc_claritygain_title">Усиление чёткости</string>
-
-    <string name="pref_curesystem_title">Защита слуха</string>
-    <string name="pref_select_cure_cf_title">Бинауральный уровень</string>
-
-    <string name="pref_analogx_title">AnalogX</string>
-    <string name="pref_analogx_strength">Уровень</string>
-
-    <string name="pref_spk_opt_title">Оптимизация динамика</string>
-
-
-	<string name="symbol_percent">%</string>
-    <string name="symbol_hertz">Гц</string>
-    <string name="symbol_milliseconds">мс</string>
-    <string name="symbol_decibel">дБ</string>
-    <string name="symbol_times">x</string>
-    <string name="symbol_meter">м</string>
-    <string name="symbol_meter_squared">м²</string>
-    
-    <!-- General settings -->
-    <string name="title_activity_settings">Настройки</string>
-    <string name="notification_settings">Настройки уведомлений</string>
-    <string name="donate">Поддержать разработку/string>
     <string name="credits">Приложение разработано</string>
     <string name="mention">При поддержке</string>
 
