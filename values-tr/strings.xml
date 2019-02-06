@@ -202,8 +202,8 @@
     <string name="title_activity_settings">Ayarlar</string>
     <string name="notification_settings">Bildirim ayarları</string>
     <string name="donate">Geliştiriciyi destekleyin</string>
-    <string name="credits">Uygulama geliştiricisi - </string>
-    <string name="mention">Sayesinde mümkün - </string>
+    <string name="credits">Uygulama geliştiricisi</string>
+    <string name="mention">En büyük teşekkür</string>
 
     <string name="error_empty_directory">%s dizini boş</string>
     <string name="token_lost">Çalışan bir program Android\'den ses efektlerini devre dışı bırakmasını istedi. ViPER4Android geçici olarak devre dışı bırakılacak</string>
