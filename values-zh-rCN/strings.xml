@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Bottom navigation and notification strings-->
+    <string name="device_unsupported">不支持设备</string>
+    <string name="device_headset">耳机</string>
+    <string name="device_speaker">扬声器</string>
+    <string name="device_bt_a2dp">蓝牙</string>
+    <string name="device_usb_device">USB设备</string>
+    <string name="notification_channel_name">ViPER4Android服务</string>
+    <string name="notification_content_title">正在处理 (%s)</string>
+    <string name="notification_content_text">点击查看更多选项。</string>
+    <string name="showcase_title">打开配置菜单</string>
+    <string name="showcase_description">点击所选设备以打开菜单</string>
+
+    <!--Dialogs-->
+    <string name="dialog_install_driver">未安装驱动</string>
+    <string name="dialog_driver_not_found">您现在想安装驱动吗？
+        \n警告：您的设备将自动重启。请确保您当前的任务已保存。</string>
+    <string name="dialog_installation_failed">安装失败在于 %s</string>
+    <string name="dialog_no_root_access">获取root权限</string>
+    <string name="dialog_cpu_not_supported">过滤支持的CPU架构</string>
+    <string name="installer_status_rebooting">重启中……</string>
+
+    <!--Presets-->
+    <string name="load">加载</string>
+    <string name="copy">复制到</string>
+    <string name="overwrite">覆盖</string>
+    <string name="rename">重命名</string>
+    <string name="delete">删除</string>
+    <string name="new_preset">新建配置</string>
+    <string name="overwrite_preset">覆盖 %s</string>
+    <string name="overwrite_preset_description">您确定要覆盖 %s? 吗？</string>
+    <string name="rename_preset">重命名 %s</string>
+    <string name="delete_preset">删除 %s</string>
+    <string name="delete_preset_description">您确定要覆盖 %s? 吗？该操作无法被撤消。</string>
+    <string name="loaded">%s 加载成功</string>
+    <string name="saved">%s 保存成功</string>
+    <string name="copied">%s 复制成功</string>
+    <string name="overwritten">%s 覆盖成功</string>
+    <string name="renamed">%s 重命名成功</string>
+    <string name="deleted">%s 删除成功</string>
+
+    <string name="dialog_preset_new_placeholder">配置名称</string>
+    <string name="dialog_preset_error_slash">\"/\" 不被允许</string>
+    <string name="dialog_preset_error_empty">请输入配置名称</string>
+
+    <!--Dialogs Driver-->
+    <string name="dialog_driver_status">驱动程序状态</string>
+    <string name="dialog_driver_status_description">
+        驱动版本：%1$s
+        \nNEON已启用：%2$s
+        \n已启用：%3$s
+        \n驱动状态：%4$s
+        \n音频格式：%5$s
+        \n正在处理：%6$s
+        \n采样率：%7$d
+    </string>
+    <string name="no">否</string>
+    <string name="yes">是</string>
+    <string name="abnormal">不正常</string>
+    <string name="normal">正常</string>
+    <string name="unsupported">不支持</string>
+    <string name="supported">支持</string>
+
+    <string name="symbol_percent">百分比</string>
+    <string name="symbol_hertz">赫兹</string>
+    <string name="symbol_milliseconds">微秒</string>
+    <string name="symbol_decibel">分贝</string>
+    <string name="symbol_times">倍</string>
+    <string name="symbol_meter">米</string>
+    <string name="symbol_meter_squared">方米</string>
+
+    <!-- General settings -->
+    <string name="title_activity_settings">设置</string>
+    <string name="notification_settings">通知设置</string>
+    <string name="donate">支持开发</string>
+    <string name="credits">程序编写</string>
+    <string name="mention">特别感谢</string>
+
+    <string name="error_empty_directory">%s 目录为空</string>
+    <string name="token_lost">一个正在运行的程序请求安卓系统禁用音效。ViPER4Android即将被暂时停用。</string>
+    <string name="request_vdc">请求文档</string>
+    <string name="request">请求</string>
+
+</resources>
