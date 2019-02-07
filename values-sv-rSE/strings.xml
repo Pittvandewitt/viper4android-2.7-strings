@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Bottom navigation and notification strings-->
+    <string name="device_unsupported">Denna enhet stöds inte</string>
+    <string name="device_headset">Hörlurar</string>
+    <string name="device_speaker">Mobil högtalaren</string>
+    <string name="device_bt_a2dp">Bluetooth</string>
+    <string name="device_usb_device">USB</string>
+    <string name="notification_channel_name">ViPER4Android tjänsten</string>
+    <string name="notification_content_title">bearbetning (%s)</string>
+    <string name="notification_content_text">Klicka för fler inställningar.</string>
+    <string name="showcase_title">Öppnar förinställnings menyn</string>
+    <string name="showcase_description">Tryck på din enhet för att öppna menyn</string>
+
+    <!--Dialogs-->
+    <string name="dialog_install_driver">ingen drivrutin hittad</string>
+    <string name="dialog_driver_not_found">Vill du installera drivrutinen nu?
+        \nVarning: Din enhet kommer nu starts om automatiskt. Var säker att din session är sparad</string>
+    <string name="dialog_installation_failed">Installation misslyckades vid %s</string>
+    <string name="dialog_no_root_access">Hämtar root access</string>
+    <string name="dialog_cpu_not_supported">filtered tillgängliga CPU arkitekturer</string>
+    <string name="installer_status_rebooting">Startar om…</string>
+
+    <!--Presets-->
+    <string name="load">Ladda in</string>
+    <string name="copy">Kopiera till</string>
+    <string name="overwrite">Skriv över</string>
+    <string name="rename">Byt namn</string>
+    <string name="delete">Radera</string>
+    <string name="new_preset">New förinställing</string>
+    <string name="overwrite_preset">Skriv över %s</string>
+    <string name="overwrite_preset_description">Är du säker att du vill skriva över %s?</string>
+    <string name="rename_preset">Byt namn %s</string>
+    <string name="delete_preset">Radera %s</string>
+    <string name="delete_preset_description">Vill du verkligen radera %s? Du kan inte ångra detta!</string>
+    <string name="loaded">%s is loaded</string>
+    <string name="saved">%s is saved</string>
+    <string name="copied">%s is copied</string>
+    <string name="overwritten">%s is overwritten</string>
+    <string name="renamed">Renamed to %s</string>
+    <string name="deleted">%s is deleted</string>
+
+    <string name="dialog_preset_new_placeholder">Förinställt namn</string>0
+    <string name="dialog_preset_error_slash">\"/\" är inte tillåtet</string>
+    <string name="dialog_preset_error_empty">Var vänlig välj ett namn</string>
+
+    <!--Dialogs Driver-->
+    <string name="dialog_driver_status">Drivrutinens status</string>
+    <string name="dialog_driver_status_description">
+        Drivrutinens version: %1$s
+        \nNEON aktiverad: %2$s
+        \nAktiverad: %3$s
+        \nStatus: %4$s
+        \nljudformat: %5$s
+        \nBeararbetar: %6$s
+        \nSamplingshastighet: %7$d
+    </string>
+    <string name="no">Nej</string>
+    <string name="yes">Ja</string>
+    <string name="abnormal">onormal</string>
+    <string name="normal">Normal</string>
+    <string name="unsupported">Stöds inte</string>
+    <string name="supported">Stöds</string>
+
+    <!-- General settings -->
+    <string name="title_activity_settings">Inställningar</string>
+    <string name="notification_settings">Öppna notifikationsinställningar</string>
+    <string name="donate">donera för att visa support</string>
+    <string name="credits">App skriven av</string>
+    <string name="mention">Gjord möjlig av</string>
+
+    <string name="error_empty_directory">Mappen %s är tom</string>
+    <string name="token_lost">Ett program som körs har bett Android att avaktivera ljudeffekter, Viper4android kommer att stängas av tillfälligt</string>
+    <string name="request_vdc">Förfråga en fil</string>
+    <string name="request">Förfråga</string>
+
+</resources>
