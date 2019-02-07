@@ -7,11 +7,11 @@
     <string name="device_speaker">Hoparlör</string>
     <string name="device_bt_a2dp">Bluetooth</string>
     <string name="device_usb_device">USB</string>
-    <string name="notification_channel_name">ViPER4Android servisi</string>
+    <string name="notification_channel_name">ViPER4Android hizmeti</string>
     <string name="notification_content_title">(%s) işleniyor</string>
-    <string name="notification_content_text">Daha fazla seçenek için dokunun.</string>
+    <string name="notification_content_text">Daha fazla seçenek için dokunun</string>
     <string name="showcase_title">Ön ayar menüsünü açın</string>
-    <string name="showcase_description">Menüyü açmak için seçilen cihaza dokunun</string>
+    <string name="showcase_description">Menüyü açmak için seçilen ses cihazına dokunun</string>
 
     <!--Dialogs-->
     <string name="dialog_install_driver">Sürücü bulunamadı</string>
@@ -19,7 +19,7 @@
         \nDikkat: Cihazınız otomatik olarak yeniden başlatılacaktır. Oturumunuzun kaydedildiğinden emin olun!</string>
     <string name="dialog_installation_failed">%s yükleme başarısız oldu</string>
     <string name="dialog_no_root_access">kök erişimi alınıyor</string>
-    <string name="dialog_cpu_not_supported">desteklenen CPU mimarilerini filtreleniyor</string>
+    <string name="dialog_cpu_not_supported">desteklenen CPU mimarileri filtreleniyor</string>
     <string name="installer_status_rebooting">Yeniden başlatılıyor...</string>
 
     <!--Presets-->
@@ -34,18 +34,18 @@
     <string name="rename_preset">%s yeniden adlandır</string>
     <string name="delete_preset">%s sil</string>
     <string name="delete_preset_description">%s gerçekten silmek istiyor musunuz? Bu işlemi geri alamazsınız!</string>
-    <string name="loaded">%s başarıyla yüklendi</string>
-    <string name="saved">%s başarıyla kaydedildi</string>
-    <string name="copied">%s başarıyla kopyalandı</string>
-    <string name="overwritten">%s üzerine başarıyla yazıldı</string>
-    <string name="renamed">%s olarak başarıyla yeniden adlandırıldı</string>
-    <string name="deleted">%s başarıyla silindi</string>
-    <string name="not_loaded">%s yükleme başarısız</string>
-    <string name="not_saved">%s kaydetme başarısız</string>
-    <string name="not_copied">%s kopyalama başarısız</string>
+    <string name="loaded">%s yüklendi</string>
+    <string name="saved">%s kaydedildi</string>
+    <string name="copied">%s kopyalandı</string>
+    <string name="overwritten">%s üzerine yazma başarılı</string>
+    <string name="renamed">%s olarak yeniden adlandırıldı</string>
+    <string name="deleted">%s silindi</string>
+    <string name="not_loaded">%s yüklenemedi</string>
+    <string name="not_saved">%s kaydedilemedi</string>
+    <string name="not_copied">%s kopyalanamadı</string>
     <string name="not_overwritten">%s üzerine yazma başarısız</string>
     <string name="not_renamed">%s yeniden adlandırma başarısız</string>
-    <string name="not_deleted">%s silme başarısız</string>
+    <string name="not_deleted">%s silinemedi</string>
 
     <string name="dialog_preset_new_placeholder">Ön ayar adı</string>
     <string name="dialog_preset_error_slash">\"/\" izin verilmiyor</string>
@@ -55,12 +55,12 @@
     <string name="dialog_driver_status">Sürücü durumu</string>
     <string name="dialog_driver_status_description">
         Sürücü versiyonu: %1$s
-        \nNEON etkin: %2$s
-        \nEtkin: %3$s
+        \nNEON etkinleştirme: %2$s
+        \nEtkinleştirme: %3$s
         \nDurum: %4$s
         \nSes formatı: %5$s
         \nİşleme: %6$s
-        \nÖrnekleme oranı: %7$d
+        \nÖrnekleme hızı: %7$d
     </string>
     <string name="no">Hayır</string>
     <string name="yes">Evet</string>
@@ -70,14 +70,14 @@
     <string name="supported">Destekleniyor</string>
 
     <!-- Main preference screen -->
-    <string name="pref_fx_limiter_title">Ana sınırlayıcı</string>
-    <string name="pref_output_gain">Çıkış arttırma</string>
+    <string name="pref_fx_limiter_title">Güç</string>
+    <string name="pref_output_gain">Çıkış yükseltme</string>
     <string name="pref_output_pan">Kanal dengesi</string>
     <string name="pref_fx_limiter_threshold">Sınır eşiği</string>
 
-    <string name="pref_playback_title">Ses arttırma kontrolü</string>
+    <string name="pref_playback_title">Ses yükseltme kontrolü</string>
     <string name="pref_playback_strength">Güç</string>
-    <string name="pref_playback_maxgain">En yüksek arttırma</string>
+    <string name="pref_playback_maxgain">Maksimum yükseltme</string>
     <string name="pref_playback_output_threshold">Çıkış eşiği</string>
 
     <string name="pref_fetcompressor_title">FET kompresörü</string>
@@ -86,14 +86,14 @@
     <string name="pref_fetcompressor_autoknee">Otomatik çekim</string>
     <string name="pref_fetcompressor_knee">Çekim</string>
     <string name="pref_fetcompressor_kneemulti">Çekim noktası kazancı</string>
-    <string name="pref_fetcompressor_autogain">Otomatik arttırma</string>
-    <string name="pref_fetcompressor_gain">Arttırma</string>
+    <string name="pref_fetcompressor_autogain">Otomatik yükseltme</string>
+    <string name="pref_fetcompressor_gain">Yükseltme</string>
     <string name="pref_fetcompressor_autoattack">Otomatik atak</string>
     <string name="pref_fetcompressor_attack">Atak</string>
-    <string name="pref_fetcompressor_maxattack">En yüksek atak</string>
+    <string name="pref_fetcompressor_maxattack">Maksimum atak</string>
     <string name="pref_fetcompressor_autorelease">Otomatik bırakma</string>
     <string name="pref_fetcompressor_release">Bırakma</string>
-    <string name="pref_fetcompressor_maxrelease">En yüksek bırakma</string>
+    <string name="pref_fetcompressor_maxrelease">Maksimum bırakma</string>
     <string name="pref_fetcompressor_crest">Zirve</string>
     <string name="pref_fetcompressor_adapt">Uyarla</string>
     <string name="pref_fetcompressor_noclip">Kırpma önleme</string>
@@ -173,14 +173,14 @@
     <string name="bass_mode_pure">Saf bas+</string>
     <string name="bass_mode_subwoofer">Subwoofer</string>
     <string name="pref_fidelity_vb_bassfreq_title">Bas frekansı</string>
-    <string name="pref_fidelity_vb_bass_strength">Bas artttırma</string>
+    <string name="pref_fidelity_vb_bass_strength">Bas yükseltme</string>
 
     <string name="pref_fidelity_clarity_title">ViPER berraklık</string>
     <string name="pref_fidelity_vc_mode_title">Berraklık modu</string>
     <string name="clarity_mode_natural">Doğal</string>
     <string name="clarity_mode_ozone">OZone+</string>
     <string name="clarity_mode_xhifi">XHiFi</string>
-    <string name="pref_fidelity_vc_claritygain_title">Berraklık arttırma</string>
+    <string name="pref_fidelity_vc_claritygain_title">Berraklık yükseltme</string>
 
     <string name="pref_curesystem_title">İşitme sistem koruması</string>
     <string name="pref_select_cure_cf_title">Stereofonik seviyesi</string>
@@ -203,7 +203,7 @@
     <string name="notification_settings">Bildirim ayarları</string>
     <string name="donate">Geliştiriciyi destekleyin</string>
     <string name="credits">Uygulama geliştiricisi</string>
-    <string name="mention">En büyük teşekkür</string>
+    <string name="mention">>En büyük teşekkür</string>
 
     <string name="error_empty_directory">%s dizini boş</string>
     <string name="token_lost">Çalışan bir program Android\'den ses efektlerini devre dışı bırakmasını istedi. ViPER4Android geçici olarak devre dışı bırakılacak</string>
