@@ -119,23 +119,23 @@
     <string name="eq_preset_treble_reducer">Redutor de agudos</string>
     <string name="eq_preset_vocal_booster">Reforço vocal</string>
 
-    <string name="pref_convolver_title">Convolver</string>
-    <string name="pref_convolver_knl">Resposta de impulso</string>
-    <string name="pref_convolver_knl_title">Selecione o arquivo de resposta ao impulso</string>
+    <string name="pref_convolver_title">Convolução</string>
+    <string name="pref_convolver_knl">Impulso de resposta</string>
+    <string name="pref_convolver_knl_title">Selecione o arquivo de impulso de resposta</string>
     <string name="pref_convolver_crosschannel">Canal cruzado</string>
 
-    <string name="pref_colorfulmusic_title">Àrea surround</string>
-    <string name="pref_select_colorfulmusic_title">Surround força</string>
-    <string name="pref_select_colorfulmusic_mi_title">Força média </string>
+    <string name="pref_colorfulmusic_title">Surround ambiente</string>
+    <string name="pref_select_colorfulmusic_title">Intensidade do surround</string>
+    <string name="pref_select_colorfulmusic_mi_title">Intensidade de médios</string>
 
-    <string name="pref_diffsurr_title">Diferencial surround</string>
-    <string name="pref_select_diffsurr_ms_title">Demora</string>
+    <string name="pref_diffsurr_title">Surround diferencial</string>
+    <string name="pref_select_diffsurr_ms_title">Atraso</string>
 
-    <string name="pref_vhs_title">Fone surround+</string>
-    <string name="pref_select_vhs_qual_title">Nivel</string>
+    <string name="pref_vhs_title">Fones Surround+</string>
+    <string name="pref_select_vhs_qual_title">Nível</string>
 
     <string name="pref_reverb_title">Reverberação</string>
-    <string name="pref_reverb_roomsize">Tamanho quarto</string>
+    <string name="pref_reverb_roomsize">Tamanho do ambiente</string>
     <string name="pref_reverb_width">Campo sonoro</string>
     <string name="pref_reverb_damp">Fator de amortecimento</string>
     <string name="pref_reverb_wet">Sinal molhado</string>
@@ -143,19 +143,19 @@
 
     <string name="pref_dynamicsystem_title">Sistema dinâmico</string>
     <string name="pref_dynamicsystem_output">Tipo de dispositivo</string>
-    <string name="dynamicsystem_entry_1">Fone de ouvido extremo(v2)</string>
-    <string name="dynamicsystem_entry_2">Fone de ouvido high-end(v2)</string>
-    <string name="dynamicsystem_entry_3">Fone de ouvido comum(v2)</string>
-    <string name="dynamicsystem_entry_4">Fone de ouvido low-end(v2)</string>
-    <string name="dynamicsystem_entry_5">Fone de ouvido comum(v2)</string>
-    <string name="dynamicsystem_entry_6">Extreme headphone(v1)</string>
-    <string name="dynamicsystem_entry_7">Fone de ouvido high-end(v1)</string>
-    <string name="dynamicsystem_entry_8">Common headphone(v1)</string>
-    <string name="dynamicsystem_entry_9">Fone de ouvido comum(v1)</string>
-    <string name="dynamicsystem_entry_10">Fone de ouvido da Apple</string>
-    <string name="dynamicsystem_entry_11">Fone de ouvido monstro</string>
-    <string name="dynamicsystem_entry_12">Fone de ouvido da Motorola</string>
-    <string name="dynamicsystem_entry_13">Fone de ouvido Philips</string>
+    <string name="dynamicsystem_entry_1">Headfone extremo(v2)</string>
+    <string name="dynamicsystem_entry_2">Headfone top de linha(v2)</string>
+    <string name="dynamicsystem_entry_3">Headfone comum(v2)</string>
+    <string name="dynamicsystem_entry_4">headfone low-end(v2)</string>
+    <string name="dynamicsystem_entry_5">Earfone comum(v2)</string>
+    <string name="dynamicsystem_entry_6">Headfone extremo(v1)</string>
+    <string name="dynamicsystem_entry_7">Headfone top de linha(v1)</string>
+    <string name="dynamicsystem_entry_8">Headfone comum(v1)</string>
+    <string name="dynamicsystem_entry_9">Headfone comum(v1)</string>
+    <string name="dynamicsystem_entry_10">Earfone da Apple</string>
+    <string name="dynamicsystem_entry_11">Earfone da Monster</string>
+    <string name="dynamicsystem_entry_12">Earfone da Motorola</string>
+    <string name="dynamicsystem_entry_13">Earfone da Philips</string>
     <string name="dynamicsystem_entry_14">SHP2000</string>
     <string name="dynamicsystem_entry_15">SHP9000</string>
     <string name="dynamicsystem_entry_16">Tipo desconhecido I</string>
@@ -163,17 +163,17 @@
     <string name="dynamicsystem_entry_18">Tipo desconhecido III</string>
     <string name="dynamicsystem_entry_19">Tipo desconhecido IV</string>
     <string name="dynamicsystem_entry_20">Tipo desconhecido V</string>
-    <string name="pref_dynamicsystem_bass">Força do baixo dinâmico</string>
+    <string name="pref_dynamicsystem_bass">Intensidade dinâmica de graves</string>
 
     <string name="pref_tube_simulator_title">Simulador de tubo (6N1J)</string>
 
-    <string name="pref_fidelity_bass_title">ViPER baixo</string>
-    <string name="pref_fidelity_vb_mode_title">Modo baixo</string>
-    <string name="bass_mode_natural">Baixo natural</string>
-    <string name="bass_mode_pure">Baixo puro+</string>
+    <string name="pref_fidelity_bass_title">Graves ViPER</string>
+    <string name="pref_fidelity_vb_mode_title">Modo dos graves</string>
+    <string name="bass_mode_natural">Graves naturais</string>
+    <string name="bass_mode_pure">Graves puros+</string>
     <string name="bass_mode_subwoofer">Subwoofer</string>
     <string name="pref_fidelity_vb_bassfreq_title">Frequência de graves</string>
-    <string name="pref_fidelity_vb_bass_strength">Baixo ganho</string>
+    <string name="pref_fidelity_vb_bass_strength">Ganho de graves</string>
 
     <string name="pref_fidelity_clarity_title">Clareza ViPER</string>
     <string name="pref_fidelity_vc_mode_title">Modo clareza</string>
@@ -182,13 +182,13 @@
     <string name="clarity_mode_xhifi">XHiFi</string>
     <string name="pref_fidelity_vc_claritygain_title">Ganho de clareza</string>
 
-    <string name="pref_curesystem_title">Proteção do sistema auditivo</string>
+    <string name="pref_curesystem_title">Sistema de proteção auditiva</string>
     <string name="pref_select_cure_cf_title">Nível binaural</string>
 
-    <string name="pref_analogx_title">AnalógicoX</string>
-    <string name="pref_analogx_strength">Nivel</string>
+    <string name="pref_analogx_title">AnalogX</string>
+    <string name="pref_analogx_strength">Nível</string>
 
-    <string name="pref_spk_opt_title">Otimização de alto-falante</string>
+    <string name="pref_spk_opt_title">Otimização de Alto-Falante</string>
 
     <string name="symbol_percent">%</string>
     <string name="symbol_hertz">Hz</string>
@@ -203,11 +203,11 @@
     <string name="notification_settings">Configurações de notificação</string>
     <string name="donate">Apoiar o desenvolvimento</string>
     <string name="credits">Aplicação escrita por</string>
-    <string name="mention">Feito possível por</string>
+    <string name="mention">Possível graças a</string>
 
-    <string name="error_empty_directory">O diretório %s está vazia</string>
-    <string name="token_lost">Um programa em execução solicitou que o Android desativasse os efeitos de áudio. ViPER4Android será temporariamente desativado</string>
-    <string name="request_vdc">Solicite um arquivo</string>
-    <string name="request">Pedido</string>
+    <string name="error_empty_directory">O diretório %s está vazio</string>
+    <string name="token_lost">Um programa em execução solicitou que o Android desativasse os efeitos de áudio. O ViPER4Android será temporariamente desativado</string>
+    <string name="request_vdc">Solicitar um arquivo</string>
+    <string name="request">Solicitar</string>
 
 </resources>
