@@ -7,49 +7,49 @@
     <string name="device_speaker">Speaker</string>
     <string name="device_bt_a2dp">Bluetooth</string>
     <string name="device_usb_device">USB</string>
-    <string name="notification_channel_name">ViPER4Android serviçõ</string>
+    <string name="notification_channel_name">Serviço ViPER4Android</string>
     <string name="notification_content_title">Processando (%s)</string>
     <string name="notification_content_text">Toque para mais opções.</string>
-    <string name="showcase_title">Abrindo o menu de Presets</string>
+    <string name="showcase_title">Abrindo o menu de predefinições</string>
     <string name="showcase_description">Toque no dispositivo selecionado para abrir o menu</string>
 
     <!--Dialogs-->
-    <string name="dialog_install_driver">Drive não encontrado</string>
-    <string name="dialog_driver_not_found">Deseja instalar o driver agora??
+    <string name="dialog_install_driver">Driver não encontrado</string>
+    <string name="dialog_driver_not_found">Deseja instalar o driver agora?
         \nCuidado: o seu dispositivo irá reiniciar automaticamente. Certifique-se de que sua sessão está salva/<string>
-    <string name="dialog_installation_failed">A instalação falhou em %s</string>
+    <string name="dialog_installation_failed">A instalação falhou na %s</string>
     <string name="dialog_no_root_access">obtenção de acesso root</string>
     <string name="dialog_cpu_not_supported">filtragem de arquiteturas de CPU suportadas</string>
-    <string name="installer_status_rebooting">Reniciando…</string>
+    <string name="installer_status_rebooting">Reiniciando…</string>
 
     <!--Presets-->
     <string name="load">Carregar</string>
     <string name="copy">Copiar para</string>
     <string name="overwrite">Sobrescrever</string>
     <string name="rename">Renomear</string>
-    <string name="delete">Deletar</string>
-    <string name="new_preset">Novo Presets </string>
+    <string name="delete">Excluir</string>
+    <string name="new_preset">Nova predefinição</string>
     <string name="overwrite_preset">Sobrescrever %s</string>
     <string name="overwrite_preset_description">Tem certeza de que deseja substituir %s?</string>
     <string name="rename_preset">Renomear %s</string>
-    <string name="delete_preset">Deletar %s</string>
+    <string name="delete_preset">Excluir %s</string>
     <string name="delete_preset_description">Você realmente deseja excluir %s? Você não pode desfazer essa ação</string>
     <string name="loaded">Carregado com sucesso %s</string>
-    <string name="saved">Salvado com sucesso %s</string>
+    <string name="saved">Salvo com sucesso %s</string>
     <string name="copied">Copiado com sucesso %s</string>
     <string name="overwritten">Sobrescreveu com sucesso %s</string>
     <string name="renamed">Renomeado com sucessso %s</string>
-    <string name="deleted">Deletado com sucesso %s</string>
-    <string name="not_loaded">Carregamento falhado %s</string>
-    <string name="not_saved">Salvamento falhou %s</string>
-    <string name="not_copied">Copiando falhou %s</string>
-    <string name="not_overwritten">Falhou ao sobrescrever %s</string>
+    <string name="deleted">Excluído com sucesso %s</string>
+    <string name="not_loaded">Falha ao carregar %s</string>
+    <string name="not_saved">Falha ao salvar %s</string>
+    <string name="not_copied">Falha ao copiar %s</string>
+    <string name="not_overwritten">Falha ao sobrescrever %s</string>
     <string name="not_renamed">Falha ao renomear %s</string>
     <string name="not_deleted">Falha na exclusão %s</string>
 
-    <string name="dialog_preset_new_placeholder">Nome do preset</string>
-    <string name="dialog_preset_error_slash">\"/\" não é permitido</string>
-    <string name="dialog_preset_error_empty">Por favor, insira um nome presets</string>
+    <string name="dialog_preset_new_placeholder">Nome da predefinição</string>
+    <string name="dialog_preset_error_slash">\"/\" não são permitidos</string>
+    <string name="dialog_preset_error_empty">Por favor, insira um nome para a predefinição</string>
 
     <!--Dialogs Driver-->
     <string name="dialog_driver_status">Status do driver</string>
@@ -58,9 +58,9 @@
         \nNEON ativado: %2$s
         \nAtivado: %3$s
         \nStatus: %4$s
-        \nFormato de audio: %5$s
+        \nFormato de áudio: %5$s
         \nProcessando: %6$s
-        \nTaxa de rate: %7$d
+        \nTaxa de amostragem: %7$d
     </string>
     <string name="no">Não</string>
     <string name="yes">Sim</string>
@@ -70,13 +70,13 @@
     <string name="supported">Suportado</string>
 
     <!-- Main preference screen -->
-    <string name="pref_fx_limiter_title">Chave Mestre</string>
-    <string name="pref_output_gain">Ganho de saida</string>
-    <string name="pref_output_pan">Bandeja de saída</string>
-    <string name="pref_fx_limiter_threshold">Limiar limite</string>
+    <string name="pref_fx_limiter_title">Limitador mestre</string>
+    <string name="pref_output_gain">Ganho de saída</string>
+    <string name="pref_output_pan">Saída panorâmica</string>
+    <string name="pref_fx_limiter_threshold">Limite de saída</string>
 
     <string name="pref_playback_title">Controle de ganho de reprodução</string>
-    <string name="pref_playback_strength">Força</string>
+    <string name="pref_playback_strength">Intensidade</string>
     <string name="pref_playback_maxgain">Ganho máximo</string>
     <string name="pref_playback_output_threshold">Limite de saída</string>
 
@@ -84,30 +84,30 @@
     <string name="pref_fetcompressor_threshold">Limiar de operação</string>
     <string name="pref_fetcompressor_ratio">Taxa de compressão</string>
     <string name="pref_fetcompressor_autoknee">Knee automático</string>
-    <string name="pref_fetcompressor_knee">Modulação de voz</string>
-    <string name="pref_fetcompressor_kneemulti">Ganho de ponto de Modulação </string>
+    <string name="pref_fetcompressor_knee">Inflexão</string>
+    <string name="pref_fetcompressor_kneemulti">Ganho da inflexão</string>
     <string name="pref_fetcompressor_autogain">Ganho automático</string>
     <string name="pref_fetcompressor_gain">Ganho</string>
     <string name="pref_fetcompressor_autoattack">Ataque automático</string>
     <string name="pref_fetcompressor_attack">Ataque</string>
-    <string name="pref_fetcompressor_maxattack">Maximum attack</string>
-    <string name="pref_fetcompressor_autorelease">Lancamento automático</string>
-    <string name="pref_fetcompressor_release">Lancamento</string>
-    <string name="pref_fetcompressor_maxrelease">Lancamento máximo</string>
-    <string name="pref_fetcompressor_crest">Crest</string>
+    <string name="pref_fetcompressor_maxattack">Ataque máximo</string>
+    <string name="pref_fetcompressor_autorelease">Recuo automático</string>
+    <string name="pref_fetcompressor_release">Recuo</string>
+    <string name="pref_fetcompressor_maxrelease">Recuo máximo</string>
+    <string name="pref_fetcompressor_crest">Crista</string>
     <string name="pref_fetcompressor_adapt">Adaptar</string>
-    <string name="pref_fetcompressor_noclip">Prevenção de clip</string>
+    <string name="pref_fetcompressor_noclip">Prevenir distorção</string>
 
     <string name="pref_viperddc_title">ViPER-DDC</string>
     <string name="pref_viperddc_device">Correção de fone de ouvido</string>
     <string name="text_choose_ddc_device">Selecione o arquivo de correção</string>
 
-    <string name="pref_vse_title">Extensão de espectro</string>
-    <string name="pref_vse_strength">Força</string>
+    <string name="pref_vse_title">Extensão do espectro</string>
+    <string name="pref_vse_strength">Intensidade</string>
 
     <string name="pref_equalizer_title">Equalizador FIR</string>
-    <string name="eq_preset_acoustic">Acustico</string>
-    <string name="eq_preset_bass_booster">Baixo impulsionador</string>
+    <string name="eq_preset_acoustic">Acústico</string>
+    <string name="eq_preset_bass_booster">Reforço de graves</string>
     <string name="eq_preset_bass_reducer">Redutor de graves</string>
     <string name="eq_preset_classical">Clássico</string>
     <string name="eq_preset_deep">Profundo</string>
