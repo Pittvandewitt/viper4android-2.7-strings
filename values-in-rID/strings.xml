@@ -73,7 +73,7 @@
 
     <!-- General settings -->
     <string name="title_activity_settings">Setelan</string>
-    <string name="notification_settings">Setelan pemberitahuan</string>
+    <string name="notification_settings">Setelan notifikasi</string>
     <string name="donate">Mendukung perkembangan</string>
     <string name="credits">Aplikasi ditulis oleh</string>
     <string name="mention">Dibuat oleh</string>
