@@ -100,7 +100,7 @@
     <string name="pref_vse_strength">Livello</string>
 
     <string name="pref_equalizer_title">Equalizzatore FIR</string>
-    <string name="eq_preset_acoustic">Acustico</string>
+    <string name="eq_preset_acoustic">Acustica</string>
     <string name="eq_preset_bass_booster">Incremento Bassi</string>
     <string name="eq_preset_bass_reducer">Riduzione Bassi</string>
     <string name="eq_preset_classical">Classica</string>
@@ -120,7 +120,7 @@
 
     <string name="pref_colorfulmusic_title">Surround di Campo</string>
     <string name="pref_select_colorfulmusic_title">Livello Surround</string>
-    <string name="pref_select_colorfulmusic_mi_title">Livello a metà immagine (sonora)</string>
+    <string name="pref_select_colorfulmusic_mi_title">Livello a metà scena (sonora)</string>
 
     <string name="pref_diffsurr_title">Surround Differenziale</string>
     <string name="pref_select_diffsurr_ms_title">Ritardo</string>
@@ -193,7 +193,10 @@
     <string name="symbol_meter_squared">m²</string>
 
     <!-- General settings -->
-    <string name="title_activity_settings">Impostazioni</string>
+    <string name="title_activity_settings">Impostazioni</string>  
+    <string name="attach_sessions">Attiva effetti audio</string>
+	<string name="attach_on">A tutte le sessioni (ma 0)</string>
+	<string name="attach_off">Solo alla sessione 0</string>
     <string name="notification_settings">Impostazioni di Notifica</string>
     <string name="donate">Supporta lo Sviluppatore</string>
     <string name="credits">Applicazione sviluppata da</string>
