@@ -29,7 +29,7 @@
     <string name="rename">Rinomina</string>
     <string name="delete">Elimina</string>
     <string name="new_preset">Nuovo preset</string>
-    <string name="overwrite_preset">Sovrascrivo %s</string>
+    <string name="overwrite_preset">Sovrascrivi %s</string>
     <string name="overwrite_preset_description">Sicuro di voler sovrascrivere %s?</string>
     <string name="rename_preset">Rinomina %s</string>
     <string name="delete_preset">Elimina %s</string>
