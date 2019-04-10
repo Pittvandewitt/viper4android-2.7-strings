@@ -203,6 +203,7 @@
     <string name="attach_sessions">Attach audio effects</string>
     <string name="attach_on">All sessions but 0</string>
     <string name="attach_off">Session 0 only</string>
+    <string name="compatibility_mode">Compatibility mode</string>
     <string name="notification_settings">Notification settings</string>
     <string name="donate">Support development</string>
     <string name="credits">Application written by</string>
