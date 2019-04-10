@@ -131,7 +131,7 @@
     <string name="pref_diffsurr_title">Surround differenziale</string>
     <string name="pref_select_diffsurr_ms_title">Ritardo</string>
 
-    <string name="pref_vhs_title">Surround+ Cuffie</string>
+    <string name="pref_vhs_title">Cuffie surround+</string>
     <string name="pref_select_vhs_qual_title">Livello</string>
 
     <string name="pref_reverb_title">Riverbero</string>
@@ -210,7 +210,7 @@
     <string name="mention">Resa possibile da</string>
 
     <string name="error_empty_directory">La cartella %s è vuota</string>
-    <string name="token_lost">Un\'app in uso ha richiesto di disabilitare gli effetti audio. ViPER4Android verrà temporaneamente disabilitato</string>
+    <string name="token_lost">"Un'app ha richiesto di disabilitare gli effetti audio. ViPER4Android verrà temporaneamente disabilitato"</string>
     <string name="request_vdc">Richiedi un file di correzione</string>
     <string name="request">Richiedi</string>
 
