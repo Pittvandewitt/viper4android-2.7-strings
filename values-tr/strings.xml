@@ -20,7 +20,7 @@
     <string name="dialog_installation_failed">%s yükleme başarısız oldu</string>
     <string name="dialog_no_root_access">kök erişimi alınıyor</string>
     <string name="dialog_cpu_not_supported">desteklenen CPU mimarileri filtreleniyor</string>
-    <string name="installer_status_rebooting">Yeniden başlatılıyor...</string>
+    <string name="installer_status_rebooting">Yeniden başlatılıyor…</string>
 
     <!--Presets-->
     <string name="load">Yükle</string>
