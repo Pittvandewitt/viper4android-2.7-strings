@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Bottom navigation and notification strings-->
+    <string name="device_unsupported">No compatible</string>
+    <string name="device_headset">Auriculares</string>
+    <string name="device_speaker">Altavoz</string>
+    <string name="device_bt_a2dp">Bluetooth</string>
+    <string name="device_usb_device">USB</string>
+    <string name="notification_channel_name">Servicio ViPER4Android</string>
+    <string name="notification_content_title">Procesando (%s)</string>
+    <string name="notification_content_text">Toca para más opciones.</string>
+    <string name="showcase_title">Abriendo predeterminados</string>
+    <string name="showcase_description">Toca algún dispositivo para abrir su menú</string>
+
+    <!--Dialogs-->
+    <string name="dialog_install_driver">No se encontró el controlador</string>
+    <string name="dialog_driver_not_found">¿Deseas instalar el controlador ahora?
+        \nAdvertencia: Tu dispositivo reiniciará automáticamente; asegúrate de guardar tu sesión antes de proceder.</string>
+    <string name="dialog_installation_failed">La instalación falló al %s</string>
+    <string name="dialog_no_root_access">obtener acceso privilegiado</string>
+    <string name="dialog_cpu_not_supported">filtrar arquitecturas de CPU compatibles</string>
+    <string name="installer_status_rebooting">Reiniciando…</string>
+
+    <!--Presets-->
+    <string name="load">Cargar</string>
+    <string name="copy">Copiar a</string>
+    <string name="overwrite">Sobreescribir</string>
+    <string name="rename">Renombrar</string>
+    <string name="delete">Eliminar</string>
+    <string name="new_preset">Nuevo preajuste</string>
+    <string name="overwrite_preset">Sobreescribir '%s'</string>
+    <string name="overwrite_preset_description">¿Realmente deseas sobreescribir '%s'?</string>
+    <string name="rename_preset">Cambiar el nombre de '%s'</string>
+    <string name="delete_preset">Eliminar '%s'</string>
+    <string name="delete_preset_description">¿Realmente deseas eliminar '%s'? No puedes desahecer esta acción.</string>
+    <string name="loaded">'%s' cargado</string>
+    <string name="saved">'%s' almacenado</string>
+    <string name="copied">'%s' copiado</string>
+    <string name="overwritten">'%s' reemplazado</string>
+    <string name="renamed">Se cambió el nombre a '%s'</string>
+    <string name="deleted">'%s' eliminado</string>
+    <string name="not_loaded">Error al cargar '%s'</string>
+    <string name="not_saved">Error al almacenar '%s'</string>
+    <string name="not_copied">Error al copiar '%s'</string>
+    <string name="not_overwritten">Error al sobreescribir '%s'</string>
+    <string name="not_renamed">Error al cambiar al nombre de '%s'</string>
+    <string name="not_deleted">Error al eliminar '%s'</string>
+
+    <string name="dialog_preset_new_placeholder">Nombre del preajuste</string>
+    <string name="dialog_preset_error_slash">No se permite el uso de \"/\"</string>
+    <string name="dialog_preset_error_empty">Ingresa un nombre válido</string>
+
+    <!--Dialogs Driver-->
+    <string name="dialog_driver_status">Estado del controlador</string>
+    <string name="dialog_driver_status_description">
+        Versión del controlador: %1$s
+        \nNEON habilitado: %2$s
+        \nHabilitado: %3$s
+        \nEstado: %4$s
+        \nFormato del audio: %5$s
+        \nProcesando: %6$s
+        \nTasa de muestreo: %7$d
+    </string>
+    <string name="no">No</string>
+    <string name="yes">Sí</string>
+    <string name="abnormal">Abnormal</string>
+    <string name="normal">Normal</string>
+    <string name="unsupported">No compatible</string>
+    <string name="supported">Compatible</string>
+
+    <!-- Main preference screen -->
+    <string name="pref_fx_limiter_title">Limitador maestro</string>
+    <string name="pref_output_gain">Ganancia de salida</string>
+    <string name="pref_output_pan">Desplazar canal</string>
+    <string name="pref_fx_limiter_threshold">Umbral</string>
+
+    <string name="pref_playback_title">Controlar ganancia de salida</string>
+    <string name="pref_playback_strength">Potencia</string>
+    <string name="pref_playback_maxgain">Ganancia máxima</string>
+    <string name="pref_playback_output_threshold">Umbral de salida</string>
+
+    <string name="pref_fetcompressor_title">Compresor FET</string>
+    <string name="pref_fetcompressor_threshold">Umbral operativo</string>
+    <string name="pref_fetcompressor_ratio">Razón de compresión</string>
+    <string name="pref_fetcompressor_autoknee">Auto inflexión</string>
+    <string name="pref_fetcompressor_knee">Inflexión</string>
+    <string name="pref_fetcompressor_kneemulti">Ganancia del punto de inflexión</string>
+    <string name="pref_fetcompressor_autogain">Auto ganancia</string>
+    <string name="pref_fetcompressor_gain">Ganancia</string>
+    <string name="pref_fetcompressor_autoattack">Auto ataque</string>
+    <string name="pref_fetcompressor_attack">Ataque</string>
+    <string name="pref_fetcompressor_maxattack">Ataque máximo</string>
+    <string name="pref_fetcompressor_autorelease">Auto liberación</string>
+    <string name="pref_fetcompressor_release">Salida</string>
+    <string name="pref_fetcompressor_maxrelease">Liberación máxima</string>
+    <string name="pref_fetcompressor_crest">Cresta</string>
+    <string name="pref_fetcompressor_adapt">Adaptar</string>
+    <string name="pref_fetcompressor_noclip">Prevenir recortes</string>
+
+    <string name="pref_viperddc_title">ViPER-DDC</string>
+    <string name="pref_viperddc_device">Corrección de auriculares</string>
+    <string name="text_choose_ddc_device">Seleccionar archivo de corrección</string>
+
+    <string name="pref_vse_title">Extender espectro</string>
+    <string name="pref_vse_strength">Potencia</string>
+
+    <string name="pref_equalizer_title">Ecualizador FIR</string>
+    <string name="eq_preset_acoustic">Acústico</string>
+    <string name="eq_preset_bass_booster">Propulsor de bajos</string>
+    <string name="eq_preset_bass_reducer">Reductor de bajos</string>
+    <string name="eq_preset_classical">Clásica</string>
+    <string name="eq_preset_deep">Profundo</string>
+    <string name="eq_preset_flat">Plano</string>
+    <string name="eq_preset_r_and_b">R&amp;B</string>
+    <string name="eq_preset_rock">Rock</string>
+    <string name="eq_preset_small_speakers">Altavoces pequeños</string>
+    <string name="eq_preset_treble_booster">Propulsor de agudos</string>
+    <string name="eq_preset_treble_reducer">Reductor de agudos</string>
+    <string name="eq_preset_vocal_booster">Propulsor de vocales</string>
+
+    <string name="pref_convolver_title">Convolver</string>
+    <string name="pref_convolver_knl">Respuesta de impulso</string>
+    <string name="pref_convolver_knl_title">Seleccionar archivo de respuesta de impulso</string>
+    <string name="pref_convolver_crosschannel">Canal de cruce</string>
+
+    <string name="pref_colorfulmusic_title">Campo envolvente</string>
+    <string name="pref_select_colorfulmusic_title">Potencia de efecto envolvente</string>
+    <string name="pref_select_colorfulmusic_mi_title">Potencia de imagen media</string>
+
+    <string name="pref_diffsurr_title">Diferencial envolvente</string>
+    <string name="pref_select_diffsurr_ms_title">Retraso</string>
+
+    <string name="pref_vhs_title">Sonido envolvente +</string>
+    <string name="pref_select_vhs_qual_title">Nivel</string>
+
+    <string name="pref_reverb_title">Reverberación</string>
+    <string name="pref_reverb_roomsize">Tamaño del cuarto</string>
+    <string name="pref_reverb_width">Campo sonoro</string>
+    <string name="pref_reverb_damp">Factor de amortiguamiento</string>
+    <string name="pref_reverb_wet">Señal húmeda</string>
+    <string name="pref_reverb_dry">Señal seca</string>
+
+    <string name="pref_dynamicsystem_title">Sistema dinámico</string>
+    <string name="pref_dynamicsystem_output">Tipo de dispositivo</string>
+    <string name="dynamicsystem_entry_1">Auriculares extremos (v2)</string>
+    <string name="dynamicsystem_entry_2">Auriculares de lujo (v2)</string>
+    <string name="dynamicsystem_entry_3">Auriculares comunes (v2)</string>
+    <string name="dynamicsystem_entry_4">Auriculares baratos (v2)</string>
+    <string name="dynamicsystem_entry_5">Auriculares internos comunes (v2)</string>
+    <string name="dynamicsystem_entry_6">Auriculares extremos (v1)</string>
+    <string name="dynamicsystem_entry_7">Auriculares de lujo (v1)</string>
+    <string name="dynamicsystem_entry_8">Auriculares comunes (v1)</string>
+    <string name="dynamicsystem_entry_9">Auriculares internos comunes (v1)</string>
+    <string name="dynamicsystem_entry_10">Auriculares internos Apple</string>
+    <string name="dynamicsystem_entry_11">Auriculares internos Monster</string>
+    <string name="dynamicsystem_entry_12">Auriculares internos Motorola</string>
+    <string name="dynamicsystem_entry_13">Auriculares internos Philips</string>
+    <string name="dynamicsystem_entry_14">SHP2000</string>
+    <string name="dynamicsystem_entry_15">SHP9000</string>
+    <string name="dynamicsystem_entry_16">Desconocido I</string>
+    <string name="dynamicsystem_entry_17">Desconocido II</string>
+    <string name="dynamicsystem_entry_18">Desconocido III</string>
+    <string name="dynamicsystem_entry_19">Desconocido IV</string>
+    <string name="dynamicsystem_entry_20">Desconocido V</string>
+    <string name="pref_dynamicsystem_bass">Potencia del bajo dinámico</string>
+
+    <string name="pref_tube_simulator_title">Simulador de sonido de tubo (6N1J)</string>
+
+    <string name="pref_fidelity_bass_title">Bajo ViPER</string>
+    <string name="pref_fidelity_vb_mode_title">Modo de bajo</string>
+    <string name="bass_mode_natural">Bajo natural</string>
+    <string name="bass_mode_pure">Bajo puro+</string>
+    <string name="bass_mode_subwoofer">Subwoofer</string>
+    <string name="pref_fidelity_vb_bassfreq_title">Frecuencia del bajo</string>
+    <string name="pref_fidelity_vb_bass_strength">Ganancia del bajo</string>
+
+    <string name="pref_fidelity_clarity_title">Claridad ViPER</string>
+    <string name="pref_fidelity_vc_mode_title">Modo de claridad</string>
+    <string name="clarity_mode_natural">Natural</string>
+    <string name="clarity_mode_ozone">OZone+</string>
+    <string name="clarity_mode_xhifi">XHiFi</string>
+    <string name="pref_fidelity_vc_claritygain_title">Ganancia de claridad</string>
+
+    <string name="pref_curesystem_title">Protección de sistema auditivo</string>
+    <string name="pref_select_cure_cf_title">Nivel binaural</string>
+
+    <string name="pref_analogx_title">AnálogoX</string>
+    <string name="pref_analogx_strength">Nivel</string>
+
+    <string name="pref_spk_opt_title">Optimización de Altavoces</string>
+
+    <string name="symbol_percent">%</string>
+    <string name="symbol_hertz">Hz</string>
+    <string name="symbol_milliseconds">ms</string>
+    <string name="symbol_decibel">dB</string>
+    <string name="symbol_times">x</string>
+    <string name="symbol_meter">m</string>
+    <string name="symbol_meter_squared">m²</string>
+
+    <!-- General settings -->
+    <string name="title_activity_settings">Ajustes</string>
+    <string name="attach_sessions">Adjuntar efectos de audio</string>
+    <string name="attach_on">Todas las sesiones menos la 0</string>
+    <string name="attach_off">Sólo la sesión 0</string>
+    <string name="compatibility_mode">Modo de alta compatibilidad</string>
+    <string name="notification_settings">Ajustar las notificaciones</string>
+    <string name="donate">Apoya el desarrollo de la aplicación</string>
+    <string name="credits">Aplicación escrita por</string>
+    <string name="mention">Agradecmientos especiales a</string>
+
+    <string name="error_empty_directory">El directorio %s está vacío</string>
+    <string name="token_lost">Una aplicación a solicitado que se deshabiliten los efectos de sonido. ViPER4Android se desactivará temporalmente.</string>
+    <string name="request_vdc">Solicitar un archivo de corrección</string>
+    <string name="request">Solicitar</string>
+
+</resources>
