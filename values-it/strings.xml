@@ -4,7 +4,7 @@
     <!--Bottom navigation and notification strings-->
     <string name="device_unsupported">Non supportato</string>
     <string name="device_headset">Cuffie</string>
-    <string name="device_speaker">Altoparlanti</string>
+    <string name="device_speaker">Altoparlante</string>
     <string name="device_bt_a2dp">Bluetooth</string>
     <string name="device_usb_device">USB</string>
     <string name="notification_channel_name">ViPER4Android in elaborazione</string>
@@ -58,7 +58,7 @@
         \nNEON attivato: %2$s
         \nAttivato: %3$s
         \nStato: %4$s
-        \nFromato audio: %5$s
+        \nFormato audio: %5$s
         \nIn elaborazione: %6$s
         \nFrequenza campionamento: %7$d
     </string>
