@@ -200,14 +200,14 @@
 
     <!-- General settings -->
     <string name="title_activity_settings">Ayarlar</string>
-	<string name="attach_sessions">Ses efektleri ekle</string>
+    <string name="attach_sessions">Ses efektleri ekle</string>
     <string name="attach_on">Tüm oturumlar 0</string>
     <string name="attach_off">Yalnızca oturum 0</string>
-	<string name="compatibility_mode">Uyumluluk modu</string>
+    <string name="compatibility_mode">Uyumluluk modu</string>
     <string name="notification_settings">Bildirim ayarları</string>
     <string name="donate">Geliştiriciyi destekleyin</string>
     <string name="credits">Uygulama geliştiricisi</string>
-    <string name="mention">>En büyük teşekkür</string>
+    <string name="mention">En büyük teşekkür</string>
 
     <string name="error_empty_directory">%s dizini boş</string>
     <string name="token_lost">Çalışan bir program Android\'den ses efektlerini devre dışı bırakmasını istedi. ViPER4Android geçici olarak devre dışı bırakılacak</string>
