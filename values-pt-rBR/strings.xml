@@ -75,7 +75,7 @@
     <string name="pref_output_pan">Saída panorâmica</string>
     <string name="pref_fx_limiter_threshold">Limite de saída</string>
 
-    <string name="pref_playback_title">Controle de ganho de reprodução</string>
+    <string name="pref_playback_title">Controle de ganho</string>
     <string name="pref_playback_strength">Intensidade</string>
     <string name="pref_playback_maxgain">Ganho máximo</string>
     <string name="pref_playback_output_threshold">Limite de saída</string>
@@ -200,6 +200,10 @@
 
     <!-- General settings -->
     <string name="title_activity_settings">Configuração</string>
+    <string name="attach_sessions">Atribuição de efeitos</string>
+    <string name="attach_on">Todas as sessões menos a 0</string>
+    <string name="attach_off">Somente sessão 0</string>
+    <string name="compatibility_mode">Modo de compatibilidade</string>
     <string name="notification_settings">Configurações de notificação</string>
     <string name="donate">Apoiar o desenvolvimento</string>
     <string name="credits">Aplicação escrita por</string>
