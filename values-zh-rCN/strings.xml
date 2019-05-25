@@ -211,7 +211,7 @@
 
     <string name="error_empty_directory">%s 目录为空</string>
     <string name="token_lost">某个正在运行的程序请求 Android 禁用音频效果，ViPER4Android 将暂时停用。</string>
-    <string name="request_vdc">请求文件</string>
-    <string name="request">请求</string>
+    <string name="request_vdc">没有发现 DDC 校准文件。</string>
+    <string name="request">从 Telegram 上下载</string>
 
 </resources>
