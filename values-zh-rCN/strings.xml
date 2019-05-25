@@ -11,16 +11,16 @@
     <string name="notification_content_title">正在处理 (%s)</string>
     <string name="notification_content_text">点击查看更多选项。</string>
     <string name="showcase_title">打开配置菜单</string>
-    <string name="showcase_description">点击所选设备以打开菜单</string>
+    <string name="showcase_description">点击设备以打开菜单</string>
 
     <!--Dialogs-->
     <string name="dialog_install_driver">未安装驱动</string>
     <string name="dialog_driver_not_found">您现在想安装驱动吗？
         \n警告：您的设备将自动重启，请确保您当前的任务已保存。</string>
-    <string name="dialog_installation_failed">由于 %s 安装失败</string>
+    <string name="dialog_installation_failed">安装失败，原因是 %s</string>
     <string name="dialog_no_root_access">获取 root 权限</string>
     <string name="dialog_cpu_not_supported">筛选支持的 CPU 架构</string>
-    <string name="installer_status_rebooting">正在重启</string>
+    <string name="installer_status_rebooting">重新启动</string>
 
     <!--Presets-->
     <string name="load">加载</string>
@@ -168,7 +168,7 @@
     <string name="pref_tube_simulator_title">电子管模拟器（6N1J）</string>
 
     <string name="pref_fidelity_bass_title">ViPER 低音</string>
-    <string name="pref_fidelity_vb_mode_title">低音模式</string>
+    <string name="pref_fidelity_vb_mode_title">低音处理模式</string>
     <string name="bass_mode_natural">自然低音</string>
     <string name="bass_mode_pure">醇低音+</string>
     <string name="bass_mode_subwoofer">低音炮</string>
@@ -212,6 +212,6 @@
     <string name="error_empty_directory">%s 目录为空</string>
     <string name="token_lost">某个正在运行的程序请求 Android 禁用音频效果，ViPER4Android 将暂时停用。</string>
     <string name="request_vdc">没有发现 DDC 校准文件。</string>
-    <string name="request">从 Telegram 上下载</string>
+    <string name="request">下载</string>
 
 </resources>
