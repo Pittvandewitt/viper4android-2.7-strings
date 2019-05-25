@@ -2,7 +2,7 @@
 <resources>
 
     <!--Bottom navigation and notification strings-->
-    <string name="device_unsupported">不支持设备</string>
+    <string name="device_unsupported">不支持的设备</string>
     <string name="device_headset">耳机</string>
     <string name="device_speaker">扬声器</string>
     <string name="device_bt_a2dp">蓝牙</string>
