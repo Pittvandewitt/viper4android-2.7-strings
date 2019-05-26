@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Bottom navigation and notification strings-->
+    <string name="device_unsupported">不支援的裝置</string>
+    <string name="device_headset">耳機</string>
+    <string name="device_speaker">内建喇叭</string>
+    <string name="device_bt_a2dp">藍牙裝置</string>
+    <string name="device_usb_device">USB 裝置</string>
+    <string name="notification_channel_name">ViPER4Android 服務</string>
+    <string name="notification_content_title">正在處理 (%s)</string>
+    <string name="notification_content_text">點擊查看更多選項。</string>
+    <string name="showcase_title">打開配置選單</string>
+    <string name="showcase_description">點擊設備以打開選單</string>
+
+    <!--Dialogs-->
+    <string name="dialog_install_driver">未安裝驅動程式</string>
+    <string name="dialog_driver_not_found">您希望現在安裝驅動程式嗎？
+        \n警告：您的設備將自動重啟，請確保您當前的任務已保存。</string>
+    <string name="dialog_installation_failed">安裝失敗，原因是 %s</string>
+    <string name="dialog_no_root_access">獲取 root 權限</string>
+    <string name="dialog_cpu_not_supported">篩選支援的 CPU 架構</string>
+    <string name="installer_status_rebooting">重新啓動</string>
+
+    <!--Presets-->
+    <string name="load">加載</string>
+    <string name="copy">複製到</string>
+    <string name="overwrite">覆蓋</string>
+    <string name="rename">重命名</string>
+    <string name="delete">刪除</string>
+    <string name="new_preset">新建配置</string>
+    <string name="overwrite_preset">覆蓋 %s</string>
+    <string name="overwrite_preset_description">您確定要覆蓋 %s? 嗎？</string>
+    <string name="rename_preset">重命名 %s</string>
+    <string name="delete_preset">刪除 %s</string>
+    <string name="delete_preset_description">您確定要覆蓋 %s? 嗎？該操作無法被撤消。</string>
+    <string name="loaded">%s 加載成功</string>
+    <string name="saved">%s 保存成功</string>
+    <string name="copied">%s 複製成功</string>
+    <string name="overwritten">%s 覆蓋成功</string>
+    <string name="renamed">%s 重命名成功</string>
+    <string name="deleted">%s 刪除成功</string>
+    <string name="not_loaded">%s 加載失敗</string>
+    <string name="not_saved">%s 保存失敗</string>
+    <string name="not_copied">%s 複製失敗</string>
+    <string name="not_overwritten">%s 覆蓋失敗</string>
+    <string name="not_renamed">%s 重命名失敗</string>
+    <string name="not_deleted">%s 刪除失敗</string>
+
+    <string name="dialog_preset_new_placeholder">配置名稱</string>
+    <string name="dialog_preset_error_slash">\"/\" 不被允許</string>
+    <string name="dialog_preset_error_empty">請鍵入配置名稱</string>
+
+    <!--Dialogs Driver-->
+    <string name="dialog_driver_status">驅動程式狀態</string>
+    <string name="dialog_driver_status_description">
+        驅動程式版本：%1$s
+        \nNEON 已啟用：%2$s
+        \n已啟用：%3$s
+        \n驅動狀態：%4$s
+        \n音頻格式：%5$s
+        \n正在處理：%6$s
+        \n采樣率：%7$d
+    </string>
+    <string name="no">否</string>
+    <string name="yes">是</string>
+    <string name="abnormal">不正常</string>
+    <string name="normal">正常</string>
+    <string name="unsupported">不支援</string>
+    <string name="supported">支援</string>
+
+    <!-- Main preference screen -->效果總開關</string>
+    <string name="pref_output_gain">輸出增益</string>
+    <string name="pref_output_pan">聲道平衡</string>
+    <string name="pref_fx_limiter_threshold">限制強度</string>
+
+    <string name="pref_playback_title">回放增益控制</string>
+    <string name="pref_playback_strength">效果強度</string>
+    <string name="pref_playback_maxgain">最大增益倍數</string>
+    <string name="pref_playback_output_threshold">最大音量</string>
+
+    <string name="pref_fetcompressor_title">FET 場效電晶體壓縮器</string>
+    <string name="pref_fetcompressor_threshold">工作門限</string>
+    <string name="pref_fetcompressor_ratio">壓縮比率</string>
+    <string name="pref_fetcompressor_autoknee">自動拐點</string>
+    <string name="pref_fetcompressor_knee">拐點</string>
+    <string name="pref_fetcompressor_kneemulti">拐點增益</string>
+    <string name="pref_fetcompressor_autogain">自動增益</string>
+    <string name="pref_fetcompressor_gain">增益</string>
+    <string name="pref_fetcompressor_autoattack">自動起音</string>
+    <string name="pref_fetcompressor_attack">起音</string>
+    <string name="pref_fetcompressor_maxattack">最大起音</string>
+    <string name="pref_fetcompressor_autorelease">自動釋音</string>
+    <string name="pref_fetcompressor_release">釋音</string>
+    <string name="pref_fetcompressor_maxrelease">最大釋音</string>
+    <string name="pref_fetcompressor_crest">波峰</string>
+    <string name="pref_fetcompressor_adapt">適應</string>
+    <string name="pref_fetcompressor_noclip">阻止削波</string>
+
+    <string name="pref_viperddc_title">ViPER-數位/數位轉換器（DDC）</string>
+    <string name="pref_viperddc_device">DDC 校準</string>
+    <string name="text_choose_ddc_device">選取校準文件</string>
+
+    <string name="pref_vse_title">頻譜延伸</string>
+    <string name="pref_vse_strength">效果強度</string>
+
+    <string name="pref_equalizer_title">EQ 等化器</string>
+    <string name="eq_preset_acoustic">原聲</string>
+    <string name="eq_preset_bass_booster">低音增強</string>
+    <string name="eq_preset_bass_reducer">低音削弱</string>
+    <string name="eq_preset_classical">古典</string>
+    <string name="eq_preset_deep">深沉</string>
+    <string name="eq_preset_flat">平淡</string>
+    <string name="eq_preset_r_and_b">R&amp;B</string>
+    <string name="eq_preset_rock">搖滾</string>
+    <string name="eq_preset_small_speakers">小型喇叭</string>
+    <string name="eq_preset_treble_booster">高音增強</string>
+    <string name="eq_preset_treble_reducer">高音削弱</string>
+    <string name="eq_preset_vocal_booster">人聲增強</string>
+
+    <string name="pref_convolver_title">脈衝回饋處理</string>
+    <string name="pref_convolver_knl">脈衝回饋樣本</string>
+    <string name="pref_convolver_knl_title">選取脈衝回饋樣本</string>
+    <string name="pref_convolver_crosschannel">通道交叉</string>
+
+    <string name="pref_colorfulmusic_title">臨場感模擬</string>
+    <string name="pref_select_colorfulmusic_title">臨場感環繞強度</string>
+    <string name="pref_select_colorfulmusic_mi_title">中央強度</string>
+
+    <string name="pref_diffsurr_title">差分環繞</string>
+    <string name="pref_select_diffsurr_ms_title">延遲時間</string>
+
+    <string name="pref_vhs_title">耳機環繞+</string>
+    <string name="pref_select_vhs_qual_title">效果強度</string>
+
+    <string name="pref_reverb_title">數字混響</string>
+    <string name="pref_reverb_roomsize">房間大小</string>
+    <string name="pref_reverb_width">音場大小</string>
+    <string name="pref_reverb_damp">水氣含量</string>
+    <string name="pref_reverb_wet">混響訊號比例</string>
+    <string name="pref_reverb_dry">原始訊號比例</string>
+
+    <string name="pref_dynamicsystem_title">动态系统</string>
+    <string name="pref_dynamicsystem_output">设备类型</string>
+    <string name="dynamicsystem_entry_1">發燒耳机（v2）</string>
+    <string name="dynamicsystem_entry_2">高級耳机（v2）</string>
+    <string name="dynamicsystem_entry_3">一般耳机（v2）</string>
+    <string name="dynamicsystem_entry_4">普通耳机（v2）</string>
+    <string name="dynamicsystem_entry_5">一般耳塞（v2）</string>
+    <string name="dynamicsystem_entry_6">發燒耳机（v1）</string>
+    <string name="dynamicsystem_entry_7">高端耳机（v1）</string>
+    <string name="dynamicsystem_entry_8">一般耳机（v1）</string>
+    <string name="dynamicsystem_entry_9">一般耳塞（v1）</string>
+    <string name="dynamicsystem_entry_10">蘋果耳塞</string>
+    <string name="dynamicsystem_entry_11">魔聲耳塞</string>
+    <string name="dynamicsystem_entry_12">Moto 耳塞</string>
+    <string name="dynamicsystem_entry_13">飛利浦耳塞</string>
+    <string name="dynamicsystem_entry_14">SHP2000</string>
+    <string name="dynamicsystem_entry_15">SHP9000</string>
+    <string name="dynamicsystem_entry_16">未知類型 1</string>
+    <string name="dynamicsystem_entry_17">未知類型 2</string>
+    <string name="dynamicsystem_entry_18">未知類型 3</string>
+    <string name="dynamicsystem_entry_19">未知類型 4</string>
+    <string name="dynamicsystem_entry_20">未知類型 5</string>
+    <string name="pref_dynamicsystem_bass">動態低音強度</string>
+
+    <string name="pref_tube_simulator_title">電子管模擬器（6N1J）</string>
+
+    <string name="pref_fidelity_bass_title">ViPER 低音</string>
+    <string name="pref_fidelity_vb_mode_title">低音處理模式</string>
+    <string name="bass_mode_natural">自然低音</string>
+    <string name="bass_mode_pure">醇低音+</string>
+    <string name="bass_mode_subwoofer">低音炮</string>
+    <string name="pref_fidelity_vb_bassfreq_title">低音頻點</string>
+    <string name="pref_fidelity_vb_bass_strength">低音增益</string>
+
+    <string name="pref_fidelity_clarity_title">ViPER 清晰度</string>
+    <string name="pref_fidelity_vc_mode_title">清晰度處理模式</string>
+    <string name="clarity_mode_natural">自然</string>
+    <string name="clarity_mode_ozone">醇氧+</string>
+    <string name="clarity_mode_xhifi">XHiFi</string>
+    <string name="pref_fidelity_vc_claritygain_title">清晰度</string>
+
+    <string name="pref_curesystem_title">聽覺保護</string>
+    <string name="pref_select_cure_cf_title">交叉回饋強度</string>
+
+    <string name="pref_analogx_title">耳機放大器的暖底音質模擬（AnalogX）</string>
+    <string name="pref_analogx_strength">效果级别</string>
+
+    <string name="pref_spk_opt_title">内建喇叭優化</string>
+
+    <string name="symbol_percent">%</string>
+    <string name="symbol_hertz">Hz</string>
+    <string name="symbol_milliseconds">ms</string>
+    <string name="symbol_decibel">dB</string>
+    <string name="symbol_times">x</string>
+    <string name="symbol_meter">m</string>
+    <string name="symbol_meter_squared">m²</string>
+
+    <!-- General settings -->
+    <string name="title_activity_settings">設定</string>
+    <string name="attach_sessions">附加音頻效果</string>
+    <string name="attach_on">除會話 0 以外</string>
+    <string name="attach_off">僅限會話 0</string>
+    <string name="compatibility_mode">兼容模式</string>
+    <string name="notification_settings">通知設定</string>
+    <string name="donate">支持開發</string>
+    <string name="credits">程式編寫</string>
+    <string name="mention">特別感謝</string>
+
+    <string name="error_empty_directory">%s 目錄爲空</string>
+    <string name="token_lost">某個正在運行的程式請求 Android 禁用音頻效果，ViPER4Android 將暫時停用。</string>
+    <string name="request_vdc">沒有發現 DDC 校準文件。</string>
+    <string name="request">下載</string>
+
+</resources>
