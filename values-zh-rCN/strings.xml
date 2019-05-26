@@ -11,7 +11,7 @@
     <string name="notification_content_title">正在处理 (%s)</string>
     <string name="notification_content_text">点击查看更多选项。</string>
     <string name="showcase_title">打开配置菜单</string>
-    <string name="showcase_description">点击设备以打开菜单</string>
+    <string name="showcase_description">点击选中的设备以打开配置菜单</string>
 
     <!--Dialogs-->
     <string name="dialog_install_driver">未安装驱动</string>
