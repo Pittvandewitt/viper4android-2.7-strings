@@ -69,7 +69,8 @@
     <string name="unsupported">不支援</string>
     <string name="supported">支援</string>
 
-    <!-- Main preference screen -->效果總開關</string>
+    <!-- Main preference screen -->
+    <string name="pref_fx_limiter_title">效果總開關</string>
     <string name="pref_output_gain">輸出增益</string>
     <string name="pref_output_pan">聲道平衡</string>
     <string name="pref_fx_limiter_threshold">限制強度</string>
