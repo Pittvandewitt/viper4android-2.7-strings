@@ -16,7 +16,7 @@
     <!--Dialogs-->
     <string name="dialog_install_driver">Driver não encontrado</string>
     <string name="dialog_driver_not_found">Deseja instalar o driver agora?
-        \nCuidado: o seu dispositivo irá reiniciar automaticamente. Certifique-se de que sua sessão está salva/<string>
+        \nCuidado: o seu dispositivo irá reiniciar automaticamente. Certifique-se de que sua sessão está salva</string>
     <string name="dialog_installation_failed">A instalação falhou na %s</string>
     <string name="dialog_no_root_access">obtenção de acesso root</string>
     <string name="dialog_cpu_not_supported">filtragem de arquiteturas de CPU suportadas</string>
