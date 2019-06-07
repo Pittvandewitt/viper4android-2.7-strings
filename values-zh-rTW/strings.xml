@@ -2,11 +2,11 @@
 <resources>
 
     <!--Bottom navigation and notification strings-->
-    <string name="device_unsupported">不支援的裝置</string>
+    <string name="device_unsupported">不支援的設備</string>
     <string name="device_headset">耳機</string>
     <string name="device_speaker">内建喇叭</string>
     <string name="device_bt_a2dp">藍牙裝置</string>
-    <string name="device_usb_device">USB 裝置</string>
+    <string name="device_usb_device">USB 設備</string>
     <string name="notification_channel_name">ViPER4Android 服務</string>
     <string name="notification_content_title">正在處理 (%s)</string>
     <string name="notification_content_text">點擊查看更多選項。</string>
@@ -76,7 +76,7 @@
     <string name="pref_fx_limiter_threshold">限制強度</string>
 
     <string name="pref_playback_title">回放增益控制</string>
-    <string name="pref_playback_strength">效果強度</string>
+    <string name="pref_playback_strength">效果級別</string>
     <string name="pref_playback_maxgain">最大增益倍數</string>
     <string name="pref_playback_output_threshold">最大音量</string>
 
@@ -100,7 +100,7 @@
 
     <string name="pref_viperddc_title">ViPER-數位/數位轉換器（DDC）</string>
     <string name="pref_viperddc_device">DDC 校準</string>
-    <string name="text_choose_ddc_device">選取校準文件</string>
+    <string name="text_choose_ddc_device">選擇 DDC 校準檔案</string>
 
     <string name="pref_vse_title">頻譜延伸</string>
     <string name="pref_vse_strength">效果強度</string>
@@ -141,8 +141,8 @@
     <string name="pref_reverb_wet">混響訊號比例</string>
     <string name="pref_reverb_dry">原始訊號比例</string>
 
-    <string name="pref_dynamicsystem_title">动态系统</string>
-    <string name="pref_dynamicsystem_output">设备类型</string>
+    <string name="pref_dynamicsystem_title">動態系统</string>
+    <string name="pref_dynamicsystem_output">收聽裝置</string>
     <string name="dynamicsystem_entry_1">發燒耳机（v2）</string>
     <string name="dynamicsystem_entry_2">高級耳机（v2）</string>
     <string name="dynamicsystem_entry_3">一般耳机（v2）</string>
@@ -186,7 +186,7 @@
     <string name="pref_select_cure_cf_title">交叉回饋強度</string>
 
     <string name="pref_analogx_title">耳機放大器的暖底音質模擬（AnalogX）</string>
-    <string name="pref_analogx_strength">效果级别</string>
+    <string name="pref_analogx_strength">效果級別</string>
 
     <string name="pref_spk_opt_title">内建喇叭優化</string>
 
@@ -201,7 +201,7 @@
     <!-- General settings -->
     <string name="title_activity_settings">設定</string>
     <string name="attach_sessions">附加音頻效果</string>
-    <string name="attach_on">除會話 0 以外</string>
+    <string name="attach_on">除會話 0 以外（預設值）</string>
     <string name="attach_off">僅限會話 0</string>
     <string name="compatibility_mode">兼容模式</string>
     <string name="notification_settings">通知設定</string>
@@ -210,7 +210,7 @@
     <string name="mention">特別感謝</string>
 
     <string name="error_empty_directory">%s 目錄爲空</string>
-    <string name="token_lost">某個正在運行的程式請求 Android 禁用音頻效果，ViPER4Android 將暫時停用。</string>
+    <string name="token_lost">某個正在運行的程式請求 Android 系統禁用音頻效果，ViPER4Android 將暫時停用。</string>
     <string name="request_vdc">沒有發現 DDC 校準文件。</string>
     <string name="request">下載</string>
 
