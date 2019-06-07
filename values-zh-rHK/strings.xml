@@ -76,7 +76,7 @@
     <string name="pref_fx_limiter_threshold">限制強度</string>
 
     <string name="pref_playback_title">回放增益控制</string>
-    <string name="pref_playback_strength">效果系統</string>
+    <string name="pref_playback_strength">效果級別</string>
     <string name="pref_playback_maxgain">最大增益倍數</string>
     <string name="pref_playback_output_threshold">最大音量</string>
 
@@ -103,7 +103,7 @@
     <string name="text_choose_ddc_device">選擇 DDC 校準檔案</string>
 
     <string name="pref_vse_title">頻譜延伸</string>
-    <string name="pref_vse_strength">效果系統</string>
+    <string name="pref_vse_strength">效果強度</string>
 
     <string name="pref_equalizer_title">EQ 等化器</string>
     <string name="eq_preset_acoustic">原聲</string>
@@ -132,7 +132,7 @@
     <string name="pref_select_diffsurr_ms_title">延遲時間</string>
 
     <string name="pref_vhs_title">耳機環繞+</string>
-    <string name="pref_select_vhs_qual_title">效果級別</string>
+    <string name="pref_select_vhs_qual_title">效果強度</string>
 
     <string name="pref_reverb_title">數字混響</string>
     <string name="pref_reverb_roomsize">房間大小</string>
