@@ -9,18 +9,18 @@
     <string name="device_usb_device">USB</string>
     <string name="notification_channel_name">ViPER4Android Service</string>
     <string name="notification_content_title">Bearbeite (%s)</string>
-    <string name="notification_content_text">Für weitere Optionen tippen.</string>
-    <string name="showcase_title">Ausgewähltes menü öffnen</string>
+    <string name="notification_content_text">Für weitere Optionen tippen</string>
+    <string name="showcase_title">Ausgewähltes Menü öffnen</string>
     <string name="showcase_description">Tippe auf das ausgewählte Gerät, um das Menü zu öffnen</string>
 
     <!--Dialogs-->
     <string name="dialog_install_driver">Kein Treiber gefunden</string>
     <string name="dialog_driver_not_found">Treiber jetzt installieren?
-    \nAchtung: Gerät wird automatisch neu gestartet. Stellen sicher, dass alle Sitzung gespeichert sind</string>
+    \nAchtung: Gerät wird automatisch neu gestartet. Stellen Sie sicher, dass alle Sitzungen gespeichert sind</string>
     <string name="dialog_installation_failed">Installationsfehler bei %s</string>
     <string name="dialog_no_root_access">Root-Zugriff erhalten</string>
-    <string name="dialog_cpu_not_supported">Prozessorachitektur nicht Supportet</string>
-    <string name="installer_status_rebooting">Rebooten…</string>
+    <string name="dialog_cpu_not_supported">Prozessorarchitektur nicht unterstützt</string>
+    <string name="installer_status_rebooting">Neustarten…</string>
 
     <!--Presets-->
     <string name="load">Laden</string>
@@ -30,30 +30,30 @@
     <string name="delete">Löschen</string>
     <string name="new_preset">Neues Projekt</string>
     <string name="overwrite_preset">Überschreibe %s</string>
-    <string name="overwrite_preset_description">soll wirklich überschrieben werden %s?</string>
+    <string name="overwrite_preset_description">Soll %s wirklich überschrieben werden?</string>
     <string name="rename_preset">Umbenennen %s</string>
     <string name="delete_preset">Löschen %s</string>
-    <string name="delete_preset_description">Soll wirklich gelöscht werden %s? Die Aktion kann nicht rückgänig gemacht werden</string>
-    <string name="loaded">Fertig geladen %s</string>
-    <string name="saved">Fertig gespeichert %s</string>
-    <string name="copied">Fertig kopiert %s</string>
-    <string name="overwritten">Fertig überschrieben %s</string>
+    <string name="delete_preset_description">Soll %s wirklich gelöscht werden? Die Aktion kann nicht rückgänig gemacht werden!</string>
+    <string name="loaded">Fertig geladen: %s</string>
+    <string name="saved">Fertig gespeichert: %s</string>
+    <string name="copied">Fertig kopiert: %s</string>
+    <string name="overwritten">Fertig überschrieben: %s</string>
     <string name="renamed">Fertig umbenannt in %s</string>
-    <string name="deleted">Fertig gelöscht %s</string>
+    <string name="deleted">Fertig gelöscht: %s</string>
 
     <string name="dialog_preset_new_placeholder">Voreingestellter Name</string>
     <string name="dialog_preset_error_slash">\"/\" ist nicht erlaubt</string>
     <string name="dialog_preset_error_empty">Bitte geben Sie einen voreingestellten Namen ein</string>
 
     <!--Dialogs Driver-->
-    <string name="dialog_driver_status">Treiber Status</string>
+    <string name="dialog_driver_status">Treiberstatus</string>
     <string name="dialog_driver_status_description">
-    Treiber Version:: %1$s
-    \nNEON Aktiviert: %2$s
+    Treiberversion: %1$s
+    \nNEON aktiviert: %2$s
     \nAktiviert: %3$s
     \nStatus: %4$s
-    \nAudio Format: %5$s
-    \nVerarbeitung: %6$s
+    \nAudioformat: %5$s
+    \nVerarbeitet: %6$s
     \nAbtastrate: %7$d
 </string>
     <string name="no">Nein</string>
@@ -64,12 +64,12 @@
     <string name="supported">Unterstützt</string>
 
     <!-- Main preference screen -->
-    <string name="pref_fx_limiter_title">Master begrenzer</string>
+    <string name="pref_fx_limiter_title">Masterbegrenzer</string>
     <string name="pref_output_gain">Lautstärkenanpassung</string>
     <string name="pref_output_pan">Balance</string>
     <string name="pref_fx_limiter_threshold">Grenzwert</string>
 
-    <string name="pref_playback_title">Wiedergabekontrolle für Lautstärkenanpassung</string>
+    <string name="pref_playback_title">Automatische Lautstärkenregelung</string>
     <string name="pref_playback_strength">Stärke</string>
     <string name="pref_playback_maxgain">Maximale Lautstärkenanpassung</string>
     <string name="pref_playback_output_threshold">Maximale Leistung</string>
@@ -89,17 +89,17 @@
     <string name="pref_fetcompressor_release">Freigabe</string>
     <string name="pref_fetcompressor_maxrelease">Maximale Freigabe</string>
     <string name="pref_fetcompressor_crest">Crest</string>
-    <string name="pref_fetcompressor_adapt">Anpassen</string>
+    <string name="pref_fetcompressor_adapt">Adapt</string>
     <string name="pref_fetcompressor_noclip">Keine Überschneidungen</string>
 
     <string name="pref_viperddc_title">ViPER-DDC</string>
-    <string name="pref_viperddc_device">Kopfhörer korrektur</string>
+    <string name="pref_viperddc_device">Kopfhörerkorrektur</string>
     <string name="text_choose_ddc_device">Wählen Sie die Korrekturdatei aus</string>
 
     <string name="pref_vse_title">Spektrumerweiterung</string>
     <string name="pref_vse_strength">Stärke</string>
 
-    <string name="pref_equalizer_title">FIR equalizer</string>
+    <string name="pref_equalizer_title">FIR Equalizer</string>
     <string name="eq_preset_acoustic">Akustisch</string>
     <string name="eq_preset_bass_booster">Bassverstärker</string>
     <string name="eq_preset_bass_reducer">Bassreduzierer</string>
@@ -114,18 +114,18 @@
     <string name="eq_preset_vocal_booster">Gesangsverstärker</string>
 
     <string name="pref_convolver_title">Convolver</string>
-    <string name="pref_convolver_knl">Impulsive Reaktion</string>
-    <string name="pref_convolver_knl_title">Wähle Impuls</string>
-    <string name="pref_convolver_crosschannel">Kanal Anwendung</string>
+    <string name="pref_convolver_knl">Impulsantwort</string>
+    <string name="pref_convolver_knl_title">Wähle Impulsantwort</string>
+    <string name="pref_convolver_crosschannel">Kanalanwendung</string>
 
-    <string name="pref_colorfulmusic_title">Surround Sound</string>
-    <string name="pref_select_colorfulmusic_title">Surround stärke</string>
+    <string name="pref_colorfulmusic_title">Surroundsound</string>
+    <string name="pref_select_colorfulmusic_title">Surroundstärke</string>
     <string name="pref_select_colorfulmusic_mi_title">Mittlere Bildstärke</string>
 
     <string name="pref_diffsurr_title">Differential Surround</string>
     <string name="pref_select_diffsurr_ms_title">Verzögern</string>
 
-    <string name="pref_vhs_title">Kopfhörer surround +</string>
+    <string name="pref_vhs_title">Kopfhörer Surround +</string>
     <string name="pref_select_vhs_qual_title">Niveau</string>
 
     <string name="pref_reverb_title">Nachhall</string>
@@ -152,25 +152,25 @@
     <string name="dynamicsystem_entry_13">Philips Ohrstecker</string>
     <string name="dynamicsystem_entry_14">SHP2000</string>
     <string name="dynamicsystem_entry_15">SHP9000</string>
-    <string name="dynamicsystem_entry_16">Unbekanter typ I</string>
-    <string name="dynamicsystem_entry_17">Unbekanter typ II</string>
-    <string name="dynamicsystem_entry_18">Unbekanter typ III</string>
-    <string name="dynamicsystem_entry_19">Unbekanter typ IV</string>
-    <string name="dynamicsystem_entry_20">Unbekanter typ V</string>
+    <string name="dynamicsystem_entry_16">Unbekanter Typ I</string>
+    <string name="dynamicsystem_entry_17">Unbekanter Typ II</string>
+    <string name="dynamicsystem_entry_18">Unbekanter Typ III</string>
+    <string name="dynamicsystem_entry_19">Unbekanter Typ IV</string>
+    <string name="dynamicsystem_entry_20">Unbekanter Typ V</string>
     <string name="pref_dynamicsystem_bass">Dynamische Bassstärke</string>
 
-    <string name="pref_tube_simulator_title">Tube simulator (6N1J)</string>
+    <string name="pref_tube_simulator_title">Tube Simulator (6N1J)</string>
 
     <string name="pref_fidelity_bass_title">ViPER Bass</string>
-    <string name="pref_fidelity_vb_mode_title">Bass modus</string>
+    <string name="pref_fidelity_vb_mode_title">Bassmodus</string>
     <string name="bass_mode_natural">Natürlicher Bass</string>
-    <string name="bass_mode_pure">Puren bass+</string>
+    <string name="bass_mode_pure">Pure Bass+</string>
     <string name="bass_mode_subwoofer">Subwoofer</string>
-    <string name="pref_fidelity_vb_bassfreq_title">Bass Frequenz</string>
+    <string name="pref_fidelity_vb_bassfreq_title">Bassfrequenz</string>
     <string name="pref_fidelity_vb_bass_strength">Bassverstärkung</string>
 
     <string name="pref_fidelity_clarity_title">ViPER Höhen</string>
-    <string name="pref_fidelity_vc_mode_title">Höhen modus</string>
+    <string name="pref_fidelity_vc_mode_title">Höhenmodus</string>
     <string name="clarity_mode_natural">Natürlich</string>
     <string name="clarity_mode_ozone">OZone+</string>
     <string name="clarity_mode_xhifi">XHiFi</string>
@@ -193,14 +193,14 @@
     <string name="symbol_meter_squared">m²</string>
 
     <!-- General settings -->
-    <string name="title_activity_settings">Einstellung</string>
+    <string name="title_activity_settings">Einstellungen</string>
     <string name="notification_settings">Benachrichtigungseinstellungen</string>
     <string name="donate">Unterstützung und Entwicklung</string>
-    <string name="credits">App wurde geschrieben von</string>
+    <string name="credits">App wurde entwickelt von</string>
     <string name="mention">Ermöglicht durch</string>
 
     <string name="error_empty_directory">Der Ordner %s ist leer</string>
     <string name="token_lost">Ein laufendes Programm hat Android aufgefordert, Audioeffekte zu deaktivieren. ViPER4Android wird vorübergehend deaktiviert</string>
-    <string name="request_vdc">Wähle eine Datei</string>
+    <string name="request_vdc">Wähle eine VDC-Datei</string>
     <string name="request">Anfordern</string>
 </resources>
