@@ -8,7 +8,7 @@
     <string name="device_bt_a2dp">Bluetooth</string>
     <string name="device_usb_device">USB</string>
     <string name="notification_channel_name">ViPER4Android Service</string>
-    <string name="notification_content_title">Bearbeite (%s)</string>
+    <string name="notification_content_title">Bearbeiten (%s)</string>
     <string name="notification_content_text">Für weitere Optionen tippen</string>
     <string name="showcase_title">Ausgewähltes Menü öffnen</string>
     <string name="showcase_description">Tippe auf das ausgewählte Gerät, um das Menü zu öffnen</string>
@@ -34,16 +34,22 @@
     <string name="rename_preset">Umbenennen %s</string>
     <string name="delete_preset">Löschen %s</string>
     <string name="delete_preset_description">Soll %s wirklich gelöscht werden? Die Aktion kann nicht rückgänig gemacht werden!</string>
-    <string name="loaded">Fertig geladen: %s</string>
-    <string name="saved">Fertig gespeichert: %s</string>
-    <string name="copied">Fertig kopiert: %s</string>
-    <string name="overwritten">Fertig überschrieben: %s</string>
-    <string name="renamed">Fertig umbenannt in %s</string>
-    <string name="deleted">Fertig gelöscht: %s</string>
+    <string name="loaded">%s erfolgreich geladen</string>
+    <string name="saved">%s erfolgreich gespeichert</string>
+    <string name="copied">%s erfolgreich kopiert</string>
+    <string name="overwritten">%s erfolgreich überschrieben</string>
+    <string name="renamed">%s erfolgreich umbennant</string>
+    <string name="deleted">%s erfolgreich gelöscht</string>
+    <string name="not_loaded">%s laden fehlgeschlagen</string>
+    <string name="not_saved">%s speichern fehlgeschlagen</string>
+    <string name="not_copied">%s kopieren fehlgeschlagen</string>
+    <string name="not_overwritten">%s überschreiben fehlgeschlagen</string>
+    <string name="not_renamed">%s umbenennen fehlgeschlagen</string>
+    <string name="not_deleted">%s löschen fehlgeschlagen</string>
 
     <string name="dialog_preset_new_placeholder">Voreingestellter Name</string>
     <string name="dialog_preset_error_slash">\"/\" ist nicht erlaubt</string>
-    <string name="dialog_preset_error_empty">Bitte geben Sie einen voreingestellten Namen ein</string>
+    <string name="dialog_preset_error_empty">Bitte einen voreingestellten Namen eingeben</string>
 
     <!--Dialogs Driver-->
     <string name="dialog_driver_status">Treiberstatus</string>
@@ -115,7 +121,7 @@
 
     <string name="pref_convolver_title">Convolver</string>
     <string name="pref_convolver_knl">Impulsantwort</string>
-    <string name="pref_convolver_knl_title">Wähle Impulsantwort</string>
+    <string name="pref_convolver_knl_title">Impulsantwortdatei auswählen</string>
     <string name="pref_convolver_crosschannel">Kanalanwendung</string>
 
     <string name="pref_colorfulmusic_title">Surroundsound</string>
@@ -177,10 +183,10 @@
     <string name="pref_fidelity_vc_claritygain_title">Höhenverstärkung</string>
 
     <string name="pref_curesystem_title">Gehörschutz</string>
-    <string name="pref_select_cure_cf_title">Binaurale Ebene</string>
+    <string name="pref_select_cure_cf_title">Beidohrig-Level</string>
 
     <string name="pref_analogx_title">AnalogX</string>
-    <string name="pref_analogx_strength">Intensivität</string>
+    <string name="pref_analogx_strength">Level</string>
 
     <string name="pref_spk_opt_title">Lautsprecheroptimierung</string>
 
@@ -194,13 +200,18 @@
 
     <!-- General settings -->
     <string name="title_activity_settings">Einstellungen</string>
+    <string name="attach_sessions">Audio-Effekte anfügen</string>
+    <string name="attach_on">Alle Sitzungen außer 0</string>
+    <string name="attach_off">Nur Sitzung 0</string>
+    <string name="compatibility_mode">Kompatibilitätsmodus</string>
     <string name="notification_settings">Benachrichtigungseinstellungen</string>
-    <string name="donate">Unterstützung und Entwicklung</string>
+    <string name="donate">Entwicklung unterstützen</string>
     <string name="credits">App wurde entwickelt von</string>
     <string name="mention">Ermöglicht durch</string>
 
     <string name="error_empty_directory">Der Ordner %s ist leer</string>
     <string name="token_lost">Ein laufendes Programm hat Android aufgefordert, Audioeffekte zu deaktivieren. ViPER4Android wird vorübergehend deaktiviert</string>
-    <string name="request_vdc">Wähle eine VDC-Datei</string>
+    <string name="request_vdc">Eine Datei anfordern</string>
     <string name="request">Anfordern</string>
+    
 </resources>
