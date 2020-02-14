@@ -8,7 +8,7 @@
     <string name="device_bt_a2dp">Bluetooth</string>
     <string name="device_usb_device">USB</string>
     <string name="notification_channel_name">ViPER4Android Service</string>
-    <string name="notification_content_title">Bearbeiten (%s)</string>
+    <string name="notification_content_title">(%s) bearbeiten</string>
     <string name="notification_content_text">Für weitere Optionen tippen</string>
     <string name="showcase_title">Ausgewähltes Menü öffnen</string>
     <string name="showcase_description">Tippe auf das ausgewählte Gerät, um das Menü zu öffnen</string>
