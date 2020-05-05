@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Bottom navigation and notification strings-->
+    <string name="device_unsupported">nepodporované</string>
+    <string name="device_headset">Slúchadlá</string>
+    <string name="device_speaker">reproduktor</string>
+    <string name="device_bt_a2dp">bluetooth</string>
+    <string name="device_usb_device">USB</string>
+    <string name="notification_channel_name">ViPER4Androidná služba</string>
+    <string name="notification_content_title">Spracovanie (%s)</string>
+    <string name="notification_content_text">Klepnutím zobrazíte ďalšie možnosti.</string>
+    <string name="showcase_title">Otvorenie ponuky predvolieb</string>
+    <string name="showcase_description">Klepnutím na vybrané zariadenie otvoríte ponuku</string>
+
+    <!--Dialogs-->
+    <string name="dialog_install_driver">Nenašiel sa žiadny ovládač</string>
+    <string name="dialog_driver_not_found">Prajete si nainštalovať ovládač teraz?
+	\nUpozornenie: Vaše zariadenie sa automaticky reštartuje. Uistite sa, že je relácia uložená</string>
+    <string name="dialog_installation_failed">Inštalácia zlyhala o %s</string>
+    <string name="dialog_no_root_access">získanie prístupu root</string>
+    <string name="dialog_cpu_not_supported">filtrovanie podporovaných architektúr CPU</string>
+    <string name="installer_status_rebooting">Reštartovanie…</string>
+
+    <!--Presets-->
+    <string name="load">Naložiť</string>
+    <string name="copy">Kopírovať do</string>
+    <string name="overwrite">prepísať</string>
+    <string name="rename">premenovanie</string>
+    <string name="delete">delete</string>
+    <string name="new_preset">Nová predvoľba</string>
+    <string name="overwrite_preset">Prepísať %s</string>
+    <string name="overwrite_preset_description">Naozaj chcete prepísať %s?</string>
+    <string name="rename_preset">Premenovať %s</string>
+    <string name="delete_preset">Odstrániť %s</string>
+    <string name="delete_preset_description">Naozaj chcete odstrániť %s? Túto akciu nemôžete vrátiť späť</string>
+    <string name="loaded">Úspešne načítané %s</string>
+    <string name="saved">Úspešne uložené %s</string>
+    <string name="copied">%s bol úspešne skopírovaný</string>
+    <string name="overwritten">%s. Úspešne bol prepísaný %s</string>
+    <string name="renamed">Úspešne bola premenovaná na %s</string>
+    <string name="deleted">%s bol úspešne odstránený</string>
+    <string name="not_loaded">Načítanie %s zlyhalo</string>
+    <string name="not_saved">Uloženie %s zlyhalo</string>
+    <string name="not_copied"> Kopírovanie %s zlyhalo</string>
+    <string name="not_overwritten">Nepodarilo sa prepísať %s</string>
+    <string name="not_renamed">Premenovanie %s zlyhalo</string>
+    <string name="not_deleted">Odstránenie %s zlyhalo</string>
+
+    <string name="dialog_preset_new_placeholder">Prednastavený názov</string>
+    <string name="dialog_preset_error_slash">\"/\" nie je povolené</string>
+    <string name="dialog_preset_error_empty">Zadajte názov predvoľby</string>
+
+    <!--Dialogs Driver-->
+    <string name="dialog_driver_status">Stav ovládača</string>
+    <string name="dialog_driver_status_description">Verzia ovládača: %1$s
+\nNEON povolené: %2$s
+\nPovolené: %3$s
+\nStatus: %4$s
+\nAudioformát: %5$s
+\nPríprava: %6$s
+\nSamplikácia:7$d  												
+    </string>
+    <string name="no">žiadny</string>
+    <string name="yes">Áno</string>
+    <string name="abnormal">abnormálne</string>
+    <string name="normal">normálne</string>
+    <string name="unsupported">nepodporovaný</string>
+    <string name="supported">podporovaný</string>
+
+    <!-- Main preference screen -->
+    <string name="pref_fx_limiter_title">Hlavný obmedzovač</string>
+    <string name="pref_output_gain">Výstupný zisk</string>
+    <string name="pref_output_pan">Výstupn panvica</string>
+    <string name="pref_fx_limiter_threshold">Prahový limit</string>
+
+    <string name="pref_playback_title">Ovládanie zisku pri prehrávaní</string>
+    <string name="pref_playback_strength">sila </string>
+    <string name="pref_playback_maxgain">Maximálny zisk</string>
+    <string name="pref_playback_output_threshold">Výstupná prahová hodnota</string>
+
+    <string name="pref_fetcompressor_title">Kompresor FET</string>
+    <string name="pref_fetcompressor_threshold">Prevádzkový prah</string>
+    <string name="pref_fetcompressor_ratio">Pomer kompresie</string>
+    <string name="pref_fetcompressor_autoknee">Automatické koleno</string>
+    <string name="pref_fetcompressor_knee">skloňovanie</string>
+    <string name="pref_fetcompressor_kneemulti">Zisk inflexného bodu</string>
+    <string name="pref_fetcompressor_autogain">Automatický zisk</string>
+    <string name="pref_fetcompressor_gain">zisk</string>
+    <string name="pref_fetcompressor_autoattack">Automatický útok</string>
+    <string name="pref_fetcompressor_attack">útok</string>
+    <string name="pref_fetcompressor_maxattack">Maximálny útok</string>
+    <string name="pref_fetcompressor_autorelease">Automatické uvoľnenie</string>
+    <string name="pref_fetcompressor_release">uvoľnenie</string>
+    <string name="pref_fetcompressor_maxrelease">Maximálne uvoľnenie</string>
+    <string name="pref_fetcompressor_crest">hrebeň</string>
+    <string name="pref_fetcompressor_adapt">ADAPT</string>
+    <string name="pref_fetcompressor_noclip">Predchádzanie orezaniu</string>
+
+    <string name="pref_viperddc_title">VIPER-DDC</string>
+    <string name="pref_viperddc_device">Korekcia náhlavnej súpravy</string>
+    <string name="text_choose_ddc_device">Vyberte korekčný súbor</string>
+
+    <string name="pref_vse_title">Rozšírenie spektra</string>
+    <string name="pref_vse_strength">pevnosť</string>
+
+    <string name="pref_equalizer_title">FIR ekvalizér</string>
+    <string name="eq_preset_acoustic">akustický</string>
+    <string name="eq_preset_bass_booster">Posilňovač basov</string>
+    <string name="eq_preset_bass_reducer">Redukcia basov</string>
+    <string name="eq_preset_classical">klasický</string>
+    <string name="eq_preset_deep">hlboký</string>
+    <string name="eq_preset_flat">plochý</string>
+    <string name="eq_preset_r_and_b">R&amp;B</string>
+    <string name="eq_preset_rock">rock</string>
+    <string name="eq_preset_small_speakers">Malé reproduktory</string>
+    <string name="eq_preset_treble_booster">Posilňovač výšok</string>
+    <string name="eq_preset_treble_reducer">Zníženie výšok</string>
+    <string name="eq_preset_vocal_booster">Zosilňovač hlasu</string>
+
+    <string name="pref_convolver_title">Convolver</string>
+    <string name="pref_convolver_knl">Zvýšenie odozvy</string>
+    <string name="pref_convolver_knl_title">Vyberte súbor impulzných odpovedí</string>
+    <string name="pref_convolver_crosschannel">Krížový kanál</string>
+
+    <string name="pref_colorfulmusic_title">Pole surround</string>
+    <string name="pref_select_colorfulmusic_title">Okolitá sila</string>
+    <string name="pref_select_colorfulmusic_mi_title">Stredná sila obrazu</string>
+
+    <string name="pref_diffsurr_title">Diferenciálny priestorový zvuk</string>
+    <string name="pref_select_diffsurr_ms_title">oneskorenie</string>
+
+    <string name="pref_vhs_title">Slúchadlá surround +</string>
+    <string name="pref_select_vhs_qual_title">hladina</string>
+
+    <string name="pref_reverb_title">odraz</string>
+    <string name="pref_reverb_roomsize">Veľkosť izby</string>
+    <string name="pref_reverb_width">Zvukové pole</string>
+    <string name="pref_reverb_damp">Tlmiaci faktor</string>
+    <string name="pref_reverb_wet">Mokrý signál</string>
+    <string name="pref_reverb_dry">Vysušovací signál</string>
+
+    <string name="pref_dynamicsystem_title">Dynamický systém</string>
+    <string name="pref_dynamicsystem_output">Typ zariadenia</string>
+    <string name="dynamicsystem_entry_1">Extrémne slúchadlá (v2)</string>
+    <string name="dynamicsystem_entry_2">Špičkové slúchadlá (v2)</string>
+    <string name="dynamicsystem_entry_3">Bežné slúchadlá (v2)</string>
+    <string name="dynamicsystem_entry_4">Dolné slúchadlá (v2)</string>
+    <string name="dynamicsystem_entry_5">Bežné slúchadlá (v2)</string>
+    <string name="dynamicsystem_entry_6">Extrémne slúchadlá (v1)</string>
+    <string name="dynamicsystem_entry_7">Slúchadlá vyššej kategórie (v1)</string>
+    <string name="dynamicsystem_entry_8">Bežné slúchadlá (v1)</string>
+    <string name="dynamicsystem_entry_9">Bežné slúchadlá (v1)</string>
+    <string name="dynamicsystem_entry_10">Slúchadlá Apple</string>
+    <string name="dynamicsystem_entry_11">Monster slúchadlá</string>
+    <string name="dynamicsystem_entry_12">Slúchadlá Motorola</string>
+    <string name="dynamicsystem_entry_13">Slúchadlá Philips</string>
+    <string name="dynamicsystem_entry_14">SHP2000</string>
+    <string name="dynamicsystem_entry_15">SHP9000</string>
+    <string name="dynamicsystem_entry_16">Neznámy typ I</string>
+    <string name="dynamicsystem_entry_17">Neznámy typ II</string>
+    <string name="dynamicsystem_entry_18">Neznámy typ III</string>
+    <string name="dynamicsystem_entry_19">Neznámy typ IV</string>
+    <string name="dynamicsystem_entry_20">Neznámy typ V</string>
+    <string name="pref_dynamicsystem_bass">Dynamická basová sila</string>
+
+    <string name="pref_tube_simulator_title">Trubicový simulátor (6N1J)</string>
+
+    <string name="pref_fidelity_bass_title">ViPER bass</string>
+    <string name="pref_fidelity_vb_mode_title">Basový režim</string>
+    <string name="bass_mode_natural">Prírodné basy</string>
+    <string name="bass_mode_pure">Čistý bas +</string>
+    <string name="bass_mode_subwoofer">subwoofer</string>
+    <string name="pref_fidelity_vb_bassfreq_title">Frekvencia basov</string>
+    <string name="pref_fidelity_vb_bass_strength">Zisk basov</string>
+
+    <string name="pref_fidelity_clarity_title">Jasnosť ViPER</string>
+    <string name="pref_fidelity_vc_mode_title">Režim zrozumiteľnosti</string>
+    <string name="clarity_mode_natural">prírodné</string>
+    <string name="clarity_mode_ozone">OZone +</string>
+    <string name="clarity_mode_xhifi">XHiFi</string>
+    <string name="pref_fidelity_vc_claritygain_title">Zisk jasnosti</string>
+
+    <string name="pref_curesystem_title">Ochrana sluchu</string>
+    <string name="pref_select_cure_cf_title">Binaurálna úroveň</string>
+
+    <string name="pref_analogx_title">AnalogX</string>
+    <string name="pref_analogx_strength">hladina</string>
+
+    <string name="pref_spk_opt_title">Optimalizácia reproduktorov</string>
+
+    <string name="symbol_percent">%</string>
+    <string name="symbol_hertz">hz</string>
+    <string name="symbol_milliseconds">viac</string>
+    <string name="symbol_decibel">dB</string>
+    <string name="symbol_times">x</string>
+    <string name="symbol_meter">m</string>
+    <string name="symbol_meter_squared">m²</string>
+
+    <!-- General settings -->
+    <string name="title_activity_settings">nastavením</string>
+    <string name="attach_sessions">Pripojte zvukové efekty</string>
+    <string name="attach_on">Všetky relácie okrem 0</string>
+    <string name="attach_off">Iba relácia 0</string>
+    <string name="compatibility_mode">Režim kompatibility</string>
+    <string name="notification_settings">Nastavenia upozornení</string>
+    <string name="donate">Podporte rozvoj</string>
+    <string name="credits">Žiadosť napísaná</string>
+    <string name="mention">Umožnené</string>
+
+    <string name="error_empty_directory">Adresar %s je prázdny </string>
+    <string name="token_lost">Spustený program požiadal Android, aby zakázal zvukové efekty. ViPER4Android bude dočasne deaktivovaný </string>
+    <string name="request_vdc">Vyžiadať súbor </string>
+    <string name="request">požiadať</string>
+</resources>	
